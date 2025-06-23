@@ -61,7 +61,7 @@ My main project is the Gesture Controlled Robot, and I plan to finish it in this
 # Challenges
 When configuring the motors for the first time, I realized that one motor on each side was spinning in the wrong direction. At  first, I didn't know what was wrong and tried to change the code, but I realized that I had to change the motor polarity for them to move in the correct direction. So, I flipped the two sets of wires connected to the L280N board and was able to fix the motor polarity. 
 
-#What's Next?
+# What's Next?
 To finish this project, I now have to code the Bluetooth to control the movement of my robot along with adding some modifications.
 
 
