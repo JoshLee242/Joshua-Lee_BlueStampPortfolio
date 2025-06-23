@@ -43,7 +43,7 @@
 <!-- Previous challenges you faced that you overcame -->
 <!-- What needs to be completed before your final milestone -->
 
-<--# First Milestone -->
+# First Milestone
 
 <!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** -->
 
@@ -55,10 +55,10 @@
 <!-- Challenges you're facing and solving in your future milestones -->
 <!-- What your plan is to complete your project -->
 
-#Description
+# Description
 My main project is the Gesture Controlled Robot, and I plan to finish it in this camp. The project includes two major components - the 4 DC motors for movement and the Bluetooth connections for control. These two components will work together to move the robot around and display the gesture controlling feature. By this first milestone, I have completed the hardware for the robot along with the code that controls the motor movement. The hardware includes the drivetrain, Arduino UNO board, L280N board, Bluetooth receiver end, and the Bluetooth master and the code I implemtned coded the motor movement for the robot. I did this by connecting the Arduino UNO and L280N boards to the motors, which allowed me to easily code the movement through the IN1, IN2, IN3, and IN4 ports. I have also connected the two Bluetooth modules - one master and one slave - so they are now ready to code and control the movement of the robot. 
 
-#Challenges
+# Challenges
 When configuring the motors for the first time, I realized that one motor on each side was spinning in the wrong direction. At  first, I didn't know what was wrong and tried to change the code, but I realized that I had to change the motor polarity for them to move in the correct direction. So, I flipped the two sets of wires connected to the L280N board and was able to fix the motor polarity. 
 
 #What's Next?
@@ -88,16 +88,65 @@ The next thing I will do is create my main project - the gesture-controlled robo
 <!-- Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. -->
 
 ```c++
-void setup() {
-  // put your setup code here, to run once:
+// Motor movement code
+
+int enA = 5;
+int in1 = 6;
+int in2 = 7;
+int in3 = 8;
+int in4 = 9;
+int enB = 10;
+
+void driveforward(){
+  digitalWrite(in1, HIGH);
+  digitalWrite(in2, LOW);
+  analogWrite(enA, 255);
+  digitalWrite(in3, HIGH);
+  digitalWrite(in4, LOW);
+  analogWrite(enB,255);
+  delay(1000);
+}
+
+void drivebackward(){
+  digitalWrite(in1, LOW);
+  digitalWrite(in2,HIGH);
+  analogWrite(enA,255);
+  digitalWrite(in3, LOW);
+  digitalWrite(in4, HIGH);
+  analogWrite(enB,255);
+  delay(1000);
+}
+
+
+void stop(){
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, LOW);
+  digitalWrite(in3, LOW);
+  digitalWrite(in4, LOW);
+  delay(1000);
+}
+
+
+void setup(){
   Serial.begin(9600);
-  Serial.println("Hello World!");
+  pinMode(enA, OUTPUT);
+  pinMode(in1, OUTPUT);
+  pinMode(in2, OUTPUT);
+  pinMode(in3, OUTPUT);
+  pinMode(in4, OUTPUT);
+  pinMode(enB, OUTPUT);
+
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void loop(){
+  
+  driveforward();
+  stop();
+  drivebackward();
+  stop();
 
 }
+
 ```
 
 <!--# Bill of Materials
