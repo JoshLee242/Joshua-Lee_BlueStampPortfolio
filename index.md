@@ -31,11 +31,24 @@
 
 
 
-<!--# Second Milestone -->
+# Second Milestone
+
 
 <!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** -->
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
+# Description 
+
+Since my first milestone, I have worked on the Bluetooth connection and the code that allows the Bluetooth to control the DC motors. I was able to connect the Bluetooth to the motors, and now just by tilting the second Bluetooth module, I can move the robot forwards, back, right, and left. In the process of making this robot, I was surprised that when I understood the code better, I was able to debug it way quicker than before. Another thing that surprised me was that making the hardware of the robot is 3 times easier than coding the software to control it. 
+
+# Challenges
+
+Challenges that I faced while making this progress included making the mistake of flipping the RX and TX pin orders and a couple of faulty batteries. Before I realized that the motors were not responding because of the wrong RX TX order, I spent a while changing the code and making sepeate test codes. However, after that didn't work, I finally checked the setup code and realized I had swapped the RX and TX order. Luckoily, after I fixed that, all I ahd to do was change two dead batteries and the robot worked.
+
+# What's Next?
+
+In the 3rd milestone, I will create boxes for all my circuit boards so they don't slide around while the robot is moving, while also adding finishing touches such as organizing the wires and making framing for the whole robot to look aesthetically pleasing.
 
 <!-- For your second milestone, explain what you've worked on since your previous milestone. You can highlight: -->
 <!-- Technical details of what you've accomplished and how they contribute to the final goal -->
@@ -95,6 +108,148 @@ Figure 2: Schematic of Bluetooth sending module (gauntlet) - HC-O5, MPU 6050, an
 
 
 ```c++
+
+// Bluetooth to motor movement code - robot
+
+#include <SoftwareSerial.h>        //includes library softwareserial
+
+char data;                         //introduces variable DATA
+
+int enA = 5;                       // sets motor pins
+int in1 = 6;                       // in1, right top motor, in2 right bottom motor, in3, left top motor, in4, left bottom
+int in2 = 7;
+int in3 = 8;
+int in4 = 9;
+int enB = 10;
+
+
+SoftwareSerial Bluetooth(2, 3);   //(TX , RX)
+
+void setup() {
+  Serial.begin(9600);             //begins serial monitor and sets 9600 baud
+  Bluetooth.begin(9600);          //begins bluetooth search and sets 9600 baud
+  
+  pinMode(enA, OUTPUT);
+  pinMode(in1, OUTPUT);           // Sets all ports as outputs
+  pinMode(in2, OUTPUT);
+  pinMode(in3, OUTPUT);
+  pinMode(in4, OUTPUT);
+  pinMode(enB, OUTPUT);
+}
+
+void loop() {
+  
+  if (Bluetooth.available()) {    // checks bluetooth buffezone 
+    data = Bluetooth.read();      // sets variable DATA as bluetooth.read
+    Serial.println(data);         // prints said DATA
+
+   if (data == 'F') {             //If the data is F, B, L, R, or S the motor movement alines
+      driveForward();
+    } else if (data == 'B') {
+      driveBackward();
+    } else if (data == 'L') {
+      turnLeft();
+    } else if (data == 'R') {
+      turnRight();
+    } else {
+      stopMotors();
+    }
+  }
+}
+
+void driveForward() {
+  digitalWrite(in1, HIGH); digitalWrite(in2, LOW); analogWrite(enA, 255);  //Motor movement from in1,2,3,4, pins HIGH or LOW to deterime direction
+  digitalWrite(in3, HIGH); digitalWrite(in4, LOW); analogWrite(enB, 255);
+}
+
+void driveBackward() {
+  digitalWrite(in1, LOW); digitalWrite(in2, HIGH); analogWrite(enA, 255);
+  digitalWrite(in3, LOW); digitalWrite(in4, HIGH); analogWrite(enB, 255);
+}
+
+void turnRight() {
+  digitalWrite(in1, HIGH); digitalWrite(in2, LOW); analogWrite(enA, 255);
+  digitalWrite(in3, LOW); digitalWrite(in4, HIGH); analogWrite(enB, 255);
+}
+
+void turnLeft() {
+  digitalWrite(in1, LOW); digitalWrite(in2, HIGH); analogWrite(enA, 255);
+  digitalWrite(in3, HIGH); digitalWrite(in4, LOW); analogWrite(enB, 255);
+}
+
+void stopMotors() {
+  digitalWrite(in1, LOW); digitalWrite(in2, LOW); analogWrite(enA, 0);
+  digitalWrite(in3, LOW); digitalWrite(in4, LOW); analogWrite(enB, 0);
+}
+
+// end
+
+//Accelerometer Data code - gauntlet code
+
+#include <Wire.h>              // library for I2C communication
+#include <SoftwareSerial.h>    // library to use software-defined serial communication
+
+// Set up Bluetooth communication on pins 2 (TX) and 3 (RX)
+SoftwareSerial Bluetooth(2, 3); // bluetooth module connected to digital pins 2 and 3
+
+const int MPU = 0x68;          // address of the MPU6050 accelerometer
+float AccX, AccY, AccZ;        // variables to store the acceleration values
+char lastCommand = ' ';        // to store the last command sent
+
+void setup() {
+  Wire.begin();                // starts IC2 communication
+  Serial.begin(9600);          // starts Serial monitor communication
+  Bluetooth.begin(9600);       // start Bluetooth communication
+
+  // wakes up the MPU6050 by writing 0 
+  Wire.beginTransmission(MPU);
+  Wire.write(0x6B);            // accesses the power
+  Wire.write(0);               // sets it to 0 to wake up the MPU6050
+  Wire.endTransmission(true);
+}
+
+void loop() {
+  // request accelerometer data starting from register 0x3B
+  Wire.beginTransmission(MPU);
+  Wire.write(0x3B);            
+  Wire.endTransmission(false); 
+  Wire.requestFrom(MPU, 6, true); // requests 6 bytes (X, Y, Z axes)
+
+  // Combines high and low bytes to get raw acceleration data
+  int16_t rawX = Wire.read() << 8 | Wire.read();  
+  int16_t rawY = Wire.read() << 8 | Wire.read();  
+  int16_t rawZ = Wire.read() << 8 | Wire.read(); 
+
+  // Convert raw values to accx, y, z
+  AccX = rawX / 16384.0;
+  AccY = rawY / 16384.0;
+  AccZ = rawZ / 16384.0;
+
+  char command; // Command to be sent based on tilt
+
+  // Decide which direction to move based on tilt:
+  if (AccX > 0.3) 
+    command = 'F';            // Tilt forward - Forward
+  else if (AccX < -0.3) 
+    command = 'B';            // Tilt backward - Backward
+  else if (AccY > 0.3) 
+    command = 'L';            // Tilt left -  Left
+  else if (AccY < -0.3) 
+    command = 'R';            // Tilt right - Right
+  else 
+    command = 'S';            // No tilt - Stop
+
+  // Only send the command if it has changed since last time
+  if (command != lastCommand) {
+    Bluetooth.write(command);  // send the command to Bluetooth module
+    Serial.println(command);   // also print to serial monitor for debugging
+    lastCommand = command;     // update the last command
+  }
+
+  delay(100);  // Small delay to reduce how often data is sent (every 100 ms)
+}
+// end 
+
 // Motor movement code
 
 int enA = 5;
