@@ -40,15 +40,16 @@
 
 # Description 
 
-Since my first milestone, I have worked on the Bluetooth connection and the code that allows the Bluetooth to control the DC motors. I was able to connect the Bluetooth to the motors, and now, just by tilting the second Bluetooth module, I can move the robot forwards, backwards, right, and left. In the process of making this robot, I was surprised that when I understood the code better, I was able to debug it way quicker than before. Another thing that surprised me was that making the hardware of the robot is 3 times easier than coding the software to control it. 
+Since my first milestone, I have worked on the Bluetooth connection and the code that allows the Bluetooth to control the DC motors. I was able to successfully connect the Bluetooth modules to the motors, and now, by simply tilting the second Bluetooth module, I can move the robot forward, backward, right, and left—as demonstrated in the code at the bottom of the website. During this process, I was surprised by how much easier it became to debug my code once I understood it more thoroughly. Another unexpected realization was that building the hardware for the robot was about three times easier than writing and troubleshooting the software needed to control it.
 
 # Challenges
 
-Challenges that I faced while making this progress included making the mistake of flipping the RX and TX pin orders and a couple of faulty batteries. Before I realized that the motors were not responding because of the wrong RX TX order, I spent a while changing the code and making sepeate test codes. However, after that didn't work, I finally checked the setup code and realized I had swapped the RX and TX order. Luckily, after I fixed that, all I had to do was change two dead batteries, and the robot worked.
+One of the biggest challenges I faced was accidentally flipping the RX and TX pin connections. Before realizing that this was the issue, I spent a lot of time changing the code and writing separate test scripts to identify the problem. When none of those worked, I finally checked the wiring and discovered that I had swapped the RX and TX pins. After correcting that, I also had to replace two dead batteries because the motors did not have enough power to start consistently. Once those two problems were fixed, the robot functioned properly.
+
 
 # What's Next?
 
-In the 3rd milestone, I will create boxes for all my circuit boards so they don't slide around while the robot is moving, while also adding finishing touches such as organizing the wires and making framing for the whole robot to look aesthetically pleasing.
+In the 3rd milestone, I will create holding structures for all my circuit boards so they don't slide around while the robot is moving, while also adding finishing touches such as organizing the wires and making framing for the whole robot to look aesthetically pleasing.
 
 <!-- For your second milestone, explain what you've worked on since your previous milestone. You can highlight: -->
 <!-- Technical details of what you've accomplished and how they contribute to the final goal -->
@@ -68,13 +69,13 @@ In the 3rd milestone, I will create boxes for all my circuit boards so they don'
 <!-- What your plan is to complete your project -->
 
 # Description
-My main project is the Gesture Controlled Robot, and I plan to finish it in this camp. The project includes two major components - the 4 DC motors for movement and the Bluetooth connections for control. These two components will work together to move the robot around and display the gesture controlling feature. By this first milestone, I have completed the hardware for the robot along with the code that controls the motor movement. As seen in Figure 1, the hardware includes the drivetrain, Arduino UNO board, L280N board, Bluetooth receiver end, and the Bluetooth master. The code I implemented coded the motor movement for the robot. I did this by connecting the Arduino UNO and L280N boards to the motors, which allowed me to easily code the movement through the IN1, IN2, IN3, and IN4 ports. I have also connected the two Bluetooth modules - one master and one slave - so they are now ready to code and control the movement of the robot. The master module is seen in Figure 2, and the slave module is found in Figure 1.
+My main project is the Gesture Controlled Robot, and I plan to finish it in this camp. The project includes two major components - the 4 DC motors for movement and the Bluetooth connections for control. These two components will work together to move the robot around and display the gesture-controlling feature. By this first milestone, I have completed the hardware for the robot along with the code that controls the motor movement. As seen in Figure 1, the hardware includes the drivetrain, Arduino UNO board, L280N board, Bluetooth receiver, and Bluetooth master. The code I implemented coded the motor movement for the robot. I did this by connecting the Arduino UNO and L280N boards to the motors, which allowed me to easily code the movement through the IN1, IN2, IN3, and IN4 ports. I have also connected the two Bluetooth modules - one master and one slave - so they are now ready to code and control the robot. The master module is seen in Figure 2, and the slave module is found in Figure 1.
 
 # Challenges
 When configuring the motors for the first time, I realized that one motor on each side was spinning in the wrong direction. At  first, I didn't know what was wrong and tried to change the code, but I realized that I had to change the motor polarity for them to move in the correct direction. So, I flipped the two sets of wires connected to the L280N board and was able to fix the motor polarity. 
 
 # What's Next?
-To finish this project, I now have to code the Bluetooth to control the movement of my robot along with adding some modifications.
+To finish this project, I have to code the Bluetooth to control the movement of my robot along with adding some modifications.
 
 
 # Starter Project (Milestone)
