@@ -30,6 +30,11 @@
 <!-- What you hope to learn in the future after everything you've learned at BSE -->
 
 
+![label](H-Bridge-Motor-Driver-Circuit-Diagram-.webp)
+
+Figure 3: This is a diagram of the H-Bridge or L280N in the robot.
+
+The H-Bridge is an electric circuit that allows a DC motor to be driven in both forward and backward directions. This is accomplished by the four switches on the outer parameters of the circuit board. By controlling which switches are on and off, you can easily control the direction the motors spin. For example, if the 
 
 # Second Milestone
 
