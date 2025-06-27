@@ -81,7 +81,7 @@ To finish this project, I now have to code the Bluetooth to control the movement
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ux6VDJUyapE?si=GVTSBreFM2V7pruh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-#Description
+# Description
 
 For my starter project, I chose to do the RGB slider. The reason for this is that I want to design headlights and taillights for my gesture-controlled robot that turn on when I move forward or backward. This project provided me with experience in coding LEDs, which will help me make these modifications to my final project. The RGB slider is a small board that contains three RGB sliders, an LED, and a USB-C port. The three RGB sliders control an LED. Three colors - blue, red, and green - are mixed to display different colors on the LED. As you slide the sliders up and down, the strength of the color increases or decreases. There are almost an infinite combinations of colors I can use to light up my LED, and everything on the board is powered by a USB-C that is connected to my laptop. 
 
@@ -101,7 +101,7 @@ The next thing I will do is create my main project - the gesture-controlled robo
 
 Figure 1: Schematic of the Gesture Controlled Robot's hardware - Arduino UNO, L280N, 4 DC motors, 4 AAA batteries, and HC-O5
 
-<--<img width="404" alt="Screenshot 2025-06-23 at 10 36 30 AM" src="https://github.com/user-attachments/assets/08002af4-b6ea-41a2-be5d-0f0e5a7ad2d7" />-->
+<img width="404" alt="Screenshot 2025-06-23 at 10 36 30 AM" src="https://github.com/user-attachments/assets/08002af4-b6ea-41a2-be5d-0f0e5a7ad2d7" />
 
 Figure 2: Schematic of Bluetooth sending module (gauntlet) - HC-O5, MPU 6050, and Arduino NANO
 
