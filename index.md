@@ -51,6 +51,9 @@ One of the biggest challenges I faced was accidentally flipping the RX and TX pi
 
 In the 3rd milestone, I will create holding structures for all my circuit boards so they don't slide around while the robot is moving, while also adding finishing touches such as organizing the wires and making framing for the whole robot to look aesthetically pleasing.
 
+
+![label](Screenshot 2025-06-27 at 9.14.05 AM.jpg)
+
 <!-- For your second milestone, explain what you've worked on since your previous milestone. You can highlight: -->
 <!-- Technical details of what you've accomplished and how they contribute to the final goal -->
 <!-- What has been surprising about the project so far -->
