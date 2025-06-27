@@ -40,11 +40,11 @@
 
 # Description 
 
-Since my first milestone, I have worked on the Bluetooth connection and the code that allows the Bluetooth to control the DC motors. I was able to connect the Bluetooth to the motors, and now just by tilting the second Bluetooth module, I can move the robot forwards, back, right, and left. In the process of making this robot, I was surprised that when I understood the code better, I was able to debug it way quicker than before. Another thing that surprised me was that making the hardware of the robot is 3 times easier than coding the software to control it. 
+Since my first milestone, I have worked on the Bluetooth connection and the code that allows the Bluetooth to control the DC motors. I was able to connect the Bluetooth to the motors, and now, just by tilting the second Bluetooth module, I can move the robot forwards, backwards, right, and left. In the process of making this robot, I was surprised that when I understood the code better, I was able to debug it way quicker than before. Another thing that surprised me was that making the hardware of the robot is 3 times easier than coding the software to control it. 
 
 # Challenges
 
-Challenges that I faced while making this progress included making the mistake of flipping the RX and TX pin orders and a couple of faulty batteries. Before I realized that the motors were not responding because of the wrong RX TX order, I spent a while changing the code and making sepeate test codes. However, after that didn't work, I finally checked the setup code and realized I had swapped the RX and TX order. Luckoily, after I fixed that, all I ahd to do was change two dead batteries and the robot worked.
+Challenges that I faced while making this progress included making the mistake of flipping the RX and TX pin orders and a couple of faulty batteries. Before I realized that the motors were not responding because of the wrong RX TX order, I spent a while changing the code and making sepeate test codes. However, after that didn't work, I finally checked the setup code and realized I had swapped the RX and TX order. Luckily, after I fixed that, all I had to do was change two dead batteries, and the robot worked.
 
 # What's Next?
 
