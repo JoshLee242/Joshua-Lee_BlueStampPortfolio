@@ -116,7 +116,7 @@ Figure 1: Schematic of the Gesture Controlled Robot's hardware - Arduino UNO, L2
 
 Figure 2: Schematic of Bluetooth sending module (gauntlet) - HC-O5, MPU 6050, and Arduino NANO
 
-# Code 
+# Bluetooth to Motor movement Code for Milestone 2
 
 
 ```c++
@@ -196,6 +196,12 @@ void stopMotors() {
 
 // end
 
+```
+
+# Accelerometer Data Code for Milestone 2
+
+``` c++
+
 //Accelerometer Data code - gauntlet code
 
 #include <Wire.h>              // library for I2C communication
@@ -261,7 +267,10 @@ void loop() {
   delay(100);  // Small delay to reduce how often data is sent (every 100 ms)
 }
 // end 
+```
 
+#Motor Movement code for Milestone 1
+```c++
 // Motor movement code
 
 int enA = 5;
@@ -320,8 +329,8 @@ void loop(){
   stop();
 
 }
-
 ```
+
 
 <!--# Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
