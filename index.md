@@ -269,7 +269,7 @@ void loop() {
 // end 
 ```
 
-#Motor Movement code for Milestone 1
+# Motor Movement code for Milestone 1
 ```c++
 // Motor movement code
 
