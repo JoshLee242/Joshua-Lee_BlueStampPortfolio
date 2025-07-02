@@ -37,7 +37,7 @@ The biggest challenge I faced during BSE was figuring out how the Bluetooth conn
 
 # What I Learned at BSE and What I Hope to Learn in the Future
 
-During my time at BSE, one of the most valuable things I learned was how to code using Arduino. Before this camp, I had no prior experience with programming, but now I have a solid understanding of the basics of C++ and a much deeper appreciation for the complexity behind coding projects. I also gained hands-on experience working with components like the L298N motor driver and the HC-05 Bluetooth module. These were completely new to me at the start, but I can now explain the function of each port and how they contribute to the overall performance of my robot. Looking ahead, I hope to improve my coding skills and develop a deeper understanding of how each line of code affects a robot.
+During my time at BSE, one of the most valuable things I learned was how to code using Arduino. Before this camp, I had no prior experience with programming but now I have a solid understanding of the basics of coding and a much deeper appreciation for the complexity behind coding projects. I also gained hands-on experience working with components like the L298N motor driver and the HC-05 Bluetooth module. These were completely new to me at the start, but I can now explain the function of each port and how they contribute to the overall performance of my robot. Looking ahead, I hope to improve my coding skills and develop a deeper understanding of how each line of code affects a robot.
 
 
 
