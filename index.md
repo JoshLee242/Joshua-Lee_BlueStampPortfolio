@@ -29,9 +29,36 @@
 <!-- A summary of key topics you learned about -->
 <!-- What you hope to learn in the future after everything you've learned at BSE -->
 
+# Description 
+
+This is the final milestone of my project, excluding the modifications, and I think it turned out pretty well. Since my previous milestone, I 3D printed cases for my circuit boards to attach them to the base. The reason for this is that they would keep sliding around, and these cases held them in place. Furthermore, I was also able to 3D print a frame that encases the robot. This frame will let me mount my modifications easily and make the whole robot look much neater. 
+
+# Challenges and Triumphs
+
+The biggest challenge I faced during BSE was figuring out how the Bluetooth connection worked. The reason for this was that the Bluetooth connection that I had set up was not working for two whole days, and I did not understand why. I kept on tweaking the code to no avial until I checked the top of my code - the RX TX pins - and realized I had them swapped. After this was fixed, the Bluetooth worked very well, which led to my biggest triumph. Following the Bluetooth's success, I was able to code the rest of the robot's Bluetooth motor movement in one day. This was a big triumph for me because the other day, I was struggling with the Bluetooth to work at all.
+
+# What I Learned at BSE and What I Hope to Learn in the Future
+
+During my time at BSE, one of the most valuable things I learned was how to code using Arduino. Before this camp, I had no prior experience with programming, but now I have a solid understanding of the basics of C++ and a much deeper appreciation for the complexity behind coding projects. I also gained hands-on experience working with components like the L298N motor driver and the HC-05 Bluetooth module. These were completely new to me at the start, but I can now explain the function of each port and how they contribute to the overall performance of my robot. Looking ahead, I hope to improve my coding skills and develop a deeper understanding of how each line of code affects a robot.
 
 
 
+
+
+
+
+
+
+
+![label](8huhuhuuhuhuh.jpeg)
+
+Figure 5: Close up of a Bluetooth HC-O5 module
+
+The HC-05 Bluetooth module is a wireless communication device that uses serial (UART) signals to send and receive data between a microcontroller (like an Arduino) and another Bluetooth device, such as a smartphone or computer. It works like a wireless version of a serial cable, allowing two devices to "talk" to each other over Bluetooth instead of through physical wires. When connected, the HC-05 can receive data through its RX pin and send data through its TX pin. The module operates in either master or slave mode, and they can be reconfigured using AT commands when placed in command mode, which allows you to change things like its name, PIN, and connection settings. For example, I used an HC-05 on my robot to allow wireless control through a gauntlet that sent Bluetooth signals. 
+
+
+
+Ask ChatGPT
 
 
 
@@ -39,7 +66,7 @@
 
 Figure 4: Diagram of the L280N in the robot
 
-The H-Bridge is an electric circuit that allows a DC motor to be driven in both forward and backward directions. This is accomplished by the four switches on the outer parameters of the circuit board. By controlling which switches are on and off, you can easily control the direction the motors spin. For example, if the IN1 and IN3 switches were set to high, and the IN2 and IN4 switches were set to low, then the motors would move forward. Without the help of the L280N, which changes the way the current flows to easily change the polarity of the motor, you would have to manually change the polarity of the DC motor to change the direction it's spinning. I used an L280N, which has two H-bridges, in my robot to control the direction of the four DC motors on the drivetrain and connect the batteries to all the other hardware. Each H-bridge is connected to one pair of motors on each side, which is seen in figure 3 above.
+The L280N has two H-Bridges, which are an electric circuit that allows a DC motor to be driven in both forward and backward directions. This is accomplished by the four switches on the outer parameters of the circuit board. By controlling which switches are on and off, you can easily control the direction the motors spin. For example, if the IN1 and IN3 switches were set to high, and the IN2 and IN4 switches were set to low, then the motors would move forward. Without the help of the L280N, which changes the way the current flows to easily change the polarity of the motor, you would have to manually change the polarity of the DC motor to change the direction it's spinning. I used an L280N, which has two H-bridges, in my robot to control the direction of the four DC motors on the drivetrain and connect the batteries to all the other hardware. Each H-bridge is connected to one pair of motors on each side, which is seen in figure 3 above.
 
 # Second Milestone
 
