@@ -1,8 +1,6 @@
 # Gesture Controlled Robot
 
-
-<!-- Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! 
-
+My project is the Gesture Controlled Robot. The robot is a car that can be controlled with gestures performed on a gauntlet that rests on your hand. Whenever you tilt the gauntlet forwards, backward, right, or left, the robot moves correspondingly. A modification that I added lets me control a robotic arm on the front of the car to pick things up. The arm is slo controlled on the gauntlet, but instead of tilting, it is controlled by joysticks
 <!-- You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions: 
 <!--```HTML 
 <!-- This is an HTML comment in Markdown 
