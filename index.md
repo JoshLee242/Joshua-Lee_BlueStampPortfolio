@@ -44,22 +44,12 @@ During my time at BSE, one of the most valuable things I learned was how to code
 
 
 
-
-
-
-
-
-
-
 # ![label](8huhuhuuhuhuh.jpeg)
 
 Figure 5: Close up of a Bluetooth HC-O5 module
 
 The HC-05 Bluetooth module is a wireless communication device that uses serial (UART) signals to send and receive data between a microcontroller (like an Arduino) and another Bluetooth device, such as a smartphone or computer. It works like a wireless version of a serial cable, allowing two devices to "talk" to each other over Bluetooth instead of through physical wires. When connected, the HC-05 can receive data through its RX pin and send data through its TX pin. The module operates in either master or slave mode, and they can be reconfigured using AT commands when placed in command mode, which allows you to change things like its name, PIN, and connection settings. For example, I used an HC-05 on my robot to allow wireless control through a gauntlet that sent Bluetooth signals. 
 
-
-
-Ask ChatGPT
 
 
 
