@@ -50,7 +50,8 @@ During my time at BSE, one of the most valuable things I learned was how to code
 
 
 
-![label](8huhuhuuhuhuh.jpeg)
+
+# ![label](8huhuhuuhuhuh.jpeg)
 
 Figure 5: Close up of a Bluetooth HC-O5 module
 
