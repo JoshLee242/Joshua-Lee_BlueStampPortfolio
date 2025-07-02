@@ -30,6 +30,11 @@
 <!-- What you hope to learn in the future after everything you've learned at BSE -->
 
 
+
+
+
+
+
 ![label](L298N-Block-Diagram-Current-Flow-How-It-Works.webp)
 
 Figure 4: Diagram of the L280N in the robot
