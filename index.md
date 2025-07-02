@@ -37,19 +37,19 @@ The HC-05 Bluetooth module is a wireless communication device that uses serial (
 
 
 
-![label](Screenshot 2025-07-02 at 10.05.51 AM.jpeg)
+![label](Screenshot 2025-07-02 at 10.05.51 AM.jpeg) ![label](Screenshot 2025-07-02 at 10.25.53 AM.jpeg)
 
 Figure 8: Case for the Arduino UNO
 
-![label](Screenshot 2025-07-02 at 9.43.19 AM.jpeg)
+![label](Screenshot 2025-07-02 at 9.43.19 AM.jpeg) ![label](Screenshot 2025-07-02 at 11.26.21 AM.jpeg)
 
 Figure 7: Case for the L280N
 
-![label](Screenshot 2025-07-02 at 9.43.02 AM.jpeg)
+![label](Screenshot 2025-07-02 at 9.43.02 AM.jpeg) ![label](Screenshot 2025-07-02 at 10.34.52 AM.jpeg)
 
 Figure 6: Back part of my frame
 
-![label](Screenshot 2025-07-02 at 9.42.41 AM.jpeg)
+![label](Screenshot 2025-07-02 at 9.42.41 AM.jpeg) ![label](Screenshot 2025-07-02 at 11.17.40 AM.jpeg)
 
 Figure 5: Front part of my frame
 
