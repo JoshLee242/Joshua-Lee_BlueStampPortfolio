@@ -137,11 +137,11 @@ Challenges that I faced while making the RGB slider included soldering too much 
 
 The next thing I will do is create my main project - the gesture-controlled robot.
 
-# Schematics
+# Schematics of the Hardware on my Gesture-Controlled Robot 
 <!-- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resources to create professional schematic diagrams, though BSE recommends Tinkercad because it can be done easily and for free in the browser. -->
 
 
-(https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. --><img width="1077" alt="Screenshot 2025-06-23 at 10 35 58 AM" src="https://github.com/user-attachments/assets/3361343b-8cfd-46c9-b240-7cd21a854c9d" />
+<img width="1077" alt="Screenshot 2025-06-23 at 10 35 58 AM" src="https://github.com/user-attachments/assets/3361343b-8cfd-46c9-b240-7cd21a854c9d" />
 
 Figure 1: Schematic of the Gesture Controlled Robot's hardware - Arduino UNO, L280N, 4 DC motors, 4 AAA batteries, and HC-O5
 
