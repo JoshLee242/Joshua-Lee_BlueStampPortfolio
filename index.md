@@ -1,6 +1,6 @@
 # Gesture Controlled Robot
 
-My project is the Gesture Controlled Robot. The robot is a car that can be controlled with gestures performed on a gauntlet that rests on your hand. Whenever you tilt the gauntlet forwards, backward, right, or left, the robot moves correspondingly. A modification that I added lets me control a robotic arm on the front of the car to pick things up. The arm is alsoo controlled on the gauntlet, but instead of tilting, it is controlled by joysticks.
+My project is the Gesture Controlled Robot. The robot is a car that can be controlled with gestures performed on a gauntlet that rests on your hand. Whenever you tilt the gauntlet forwards, backward, right, or left, the robot moves correspondingly. A modification that I added lets me control a robotic arm on the front of the car to pick things up. The arm is also controlled on the gauntlet, but instead of tilting, it is controlled by joysticks.
 
 
 
@@ -28,11 +28,11 @@ During my time at BSE, one of the most valuable things I learned was how to code
 
 
 
-## ![label](ardunino image.jpeg)
+## ![label](arduninoimage.jpeg)
 
 Figure 11: Diagram of an Arduino UNO used in the project
 
-## ![label](nano image.jpeg)
+## ![label](nanoimage.jpeg)
 
 Figure 10: Diagram of an Arduino Nano used in this project
 
