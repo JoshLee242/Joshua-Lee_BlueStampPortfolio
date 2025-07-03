@@ -27,7 +27,7 @@ A challenge that I faced was when I was putting on the frame of the robot. The o
 
 Now that I have finished the non-modified robot, I will spend the rest of my time on modifications such as a robotic arm and LEDs.
 
-
+# CAD 3D Designs
 
 ![label](Screenshot 2025-07-02 at 10.25.53 AM.jpeg)
 Figure 8B: Design drawing for Arduino Case
@@ -62,7 +62,7 @@ Figure 5A: This is the front section of my frame that will go on my robot. The a
 
 ## Description 
 
-Since my first milestone, I have worked on the Bluetooth connection and the code that allows the Bluetooth to control the DC motors. I was able to successfully connect the Bluetooth modules to the motors, and now, by simply tilting the second Bluetooth module, I can move the robot forward, backward, right, and left as demonstrated in the code at the bottom of the website. The accelerometer in the MPU-6050 sends the acceleration data to the NANO, which converts the raw acceleration data to x, y, and z. The x, y, and z data is sent over to the HC-O5 on the robot and used to determine if the robot should stop, turn right, turn left, move forward, or move backward using if-else statements.. During this process, I was surprised by how much easier it became to debug my code once I understood it more. 
+Since my first milestone, I have worked on the Bluetooth connection and the code that allows the Bluetooth to control the DC motors. I was able to successfully connect the Bluetooth modules to the motors, and now, by simply tilting the second Bluetooth module, I can move the robot forward, backward, right, and left as demonstrated in the code at the bottom of the website. The accelerometer in the MPU-6050 sends the acceleration data to the NANO, which converts the raw acceleration data to AccX, AccY, and AccZ. This data is sent over to the HC-O5 on the robot and used to determine if the robot should stop, turn right, turn left, move forward, or move backward using if-else statements.. During this process, I was surprised by how much easier it became to debug my code once I understood it more. 
 
 ## Challenges
 
@@ -73,7 +73,7 @@ One of the biggest challenges I faced was accidentally flipping the RX and TX pi
 
 In the 3rd milestone, I will create holding structures for all my circuit boards so they don't slide around while the robot is moving, while also adding finishing touches such as organizing the wires and making framing for the whole robot to look aesthetically pleasing.
 
-
+# Flow Chart for Code
 ![label](Screenshot 2025-06-27 at 9.14.05 AM.jpg)
 
 Figure 3: Flow chart of the code that connects gesture motions to motor movement
@@ -106,8 +106,7 @@ To finish this project, I have to code the Bluetooth to control the movement of 
 
 
 
-# How it works
-
+# How it Works
 
 
 ## ![label](mpu6050.jpeg)
@@ -170,6 +169,31 @@ Challenges that I faced while making the RGB slider included soldering too much 
 
 The next thing I will do is create my main project - the gesture-controlled robot.
 
+
+# Bill of Materials
+<!--Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
+Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. -->
+
+| **Part** | **Note** | **Price** | **Link** |
+|:--:|:--:|:--:|:--:|
+| Arduino UNO | Used to interpret the information from HC-O5 and send it to the L280N for motor movement| $27.60 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| L280N | Used to move the dc motors | $2.50 | <a href = "https://www.amazon.com/Controller-H-Bridge-Stepper-Control-Mega2560/dp/B07WS89781?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=A2Z10KY0342329&gQT=2&th=1"> Link </a> |
+| Robot drivetrain kit | Used for the 4 DC motors, wheels, and base | $24.54 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.robotshop.com/products/dagu-4wd-smart-robot-car-chassis-kit-arduino?srsltid=AfmBOoofzgdQPlwE9YJSzuJQFyX_Zy0RppEzIGCogWfRIADYJvdvVO5ioEA&gQT=1)"> Link </a> |
+|Arduino NANO | Used to interpret informationn from then MPU-6050 and send to the HC-O5 | $25.70 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://store-usa.arduino.cc/products/arduino-nano?utm_source=google&utm_medium=cpc&utm_campaign=US-Pmax&gad_source=4&gad_campaignid=21317508903&gbraid=0AAAAACbEa86aEwzwTFL663nlB20be8mQZ&gclid=Cj0KCQjw1JjDBhDjARIsABlM2SslwpXG7znkr3qYttW6EO21Ugu-sm7SEuG-Y5guA67OIkUX4gOUE3gaAtGOEALw_wcB)"> Link </a> |
+| HC-O5 | Used for wirless communication | $9.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/DSD-TECH-HC-05-Pass-through-Communication/dp/B01G9KSAF6?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=AFLYC5O31PGVX&gQT=2)"> Link </a> |
+| MPU-6050 | Used for its accelerometer, and it reads the gestures | $1.39 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.aliexpress.us/item/3256808826971954.html?src=google&pdp_npi=4%40dis%21USD%213.81%211.90%21%21%21%21%21%40%2112000047579019862%21ppc%21%21%21&src=google&albch=shopping&acnt=708-803-3821&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=UneMJZVf&gclsrc=aw.ds&albagn=888888&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=en3256808826971954&ds_e_product_merchant_id=467024831&ds_e_product_country=US&ds_e_product_language=en&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=20123152476&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=4&gad_campaignid=20127768206&gbraid=0AAAAAD6I-hGUWGr4DhiPlQ3nBdFBQgKN_&gclid=Cj0KCQjw1JjDBhDjARIsABlM2StZmpANKHuKpgTpfPdBHouGp0W-QskmYFQnVFA4EffTAex8rvVxX2oaAhTTEALw_wcB&gatewayAdapt=glo2usa)"> Link </a> |
+| Breadboard | Used to connect circuit boards and HC-O5's together with help of wires | $0.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.aliexpress.us/item/3256804346037929.html?spm=a2g0o.productlist.main.1.3d6d622583Hjli&algo_pvid=ba58545d-17a6-45f5-b519-932647cf900a&algo_exp_id=ba58545d-17a6-45f5-b519-932647cf900a-0&pdp_ext_f=%7B%22order%22%3A%223794%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%211.39%210.99%21%21%211.39%210.99%21%402103146f17515584028978959ea8ad%2112000029785371583%21sea%21US%210%21ABX&curPageLogUid=mUXyLOtzm5V2&utparam-url=scene%3Asearch%7Cquery_from%3A)"> Link </a> |
+| Wires | Used to connect everthing | $0.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.aliexpress.us/item/3256807681844118.html?spm=a2g0o.productlist.main.8.60087044DZEHGv&aem_p4p_detail=202507030900315260555650590790001624135&algo_pvid=9cd11205-cb02-4323-92f2-3128aa069a37&algo_exp_id=9cd11205-cb02-4323-92f2-3128aa069a37-7&pdp_ext_f=%7B%22order%22%3A%22247%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%213.99%210.99%21%21%2128.45%217.11%21%402101c5a417515584316401102eaf5e%2112000042656642092%21sea%21US%210%21ABX&curPageLogUid=bsfFq09YUqjL&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=202507030900315260555650590790001624135_2)"> Link </a> |
+
+# Sources
+
+- https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/
+  
+- https://docs.cirkitdesigner.com/component/d1439f73-3af9-06c4-8e23-235ee200a5f1/hc-05-bluetooth-module
+  
+- https://www.geeksforgeeks.org/electronics-engineering/overview-of-the-arduino-uno-components/
+  
+- https://www.researchgate.net/figure/Arduino-Nano-hardware-circuit-diagram_fig4_335065396
 
 
 # Appendix
@@ -390,35 +414,3 @@ void loop(){
 ```
 
 
-# Bill of Materials
-<!--Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. -->
-
-| **Part** | **Note** | **Price** | **Link** |
-|:--:|:--:|:--:|:--:|
-| Arduino UNO | Used to interpret the information from HC-O5 and send it to the L280N for motor movement| $27.60 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| L280N | Used to move the dc motors | $2.50 | <a href = "https://www.amazon.com/Controller-H-Bridge-Stepper-Control-Mega2560/dp/B07WS89781?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=A2Z10KY0342329&gQT=2&th=1"> Link </a> |
-| Robot drivetrain kit | Used for the 4 DC motors, wheels, and base | $24.54 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.robotshop.com/products/dagu-4wd-smart-robot-car-chassis-kit-arduino?srsltid=AfmBOoofzgdQPlwE9YJSzuJQFyX_Zy0RppEzIGCogWfRIADYJvdvVO5ioEA&gQT=1)"> Link </a> |
-|Arduino NANO | Used to interpret informationn from then MPU-6050 and send to the HC-O5 | $25.70 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://store-usa.arduino.cc/products/arduino-nano?utm_source=google&utm_medium=cpc&utm_campaign=US-Pmax&gad_source=4&gad_campaignid=21317508903&gbraid=0AAAAACbEa86aEwzwTFL663nlB20be8mQZ&gclid=Cj0KCQjw1JjDBhDjARIsABlM2SslwpXG7znkr3qYttW6EO21Ugu-sm7SEuG-Y5guA67OIkUX4gOUE3gaAtGOEALw_wcB)"> Link </a> |
-| HC-O5 | Used for wirless communication | $9.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/DSD-TECH-HC-05-Pass-through-Communication/dp/B01G9KSAF6?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=AFLYC5O31PGVX&gQT=2)"> Link </a> |
-| MPU-6050 | Used for its accelerometer, and it reads the gestures | $1.39 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.aliexpress.us/item/3256808826971954.html?src=google&pdp_npi=4%40dis%21USD%213.81%211.90%21%21%21%21%21%40%2112000047579019862%21ppc%21%21%21&src=google&albch=shopping&acnt=708-803-3821&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=UneMJZVf&gclsrc=aw.ds&albagn=888888&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=en3256808826971954&ds_e_product_merchant_id=467024831&ds_e_product_country=US&ds_e_product_language=en&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=20123152476&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=4&gad_campaignid=20127768206&gbraid=0AAAAAD6I-hGUWGr4DhiPlQ3nBdFBQgKN_&gclid=Cj0KCQjw1JjDBhDjARIsABlM2StZmpANKHuKpgTpfPdBHouGp0W-QskmYFQnVFA4EffTAex8rvVxX2oaAhTTEALw_wcB&gatewayAdapt=glo2usa)"> Link </a> |
-| Breadboard | Used to connect circuit boards and HC-O5's together with help of wires | $0.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.aliexpress.us/item/3256804346037929.html?spm=a2g0o.productlist.main.1.3d6d622583Hjli&algo_pvid=ba58545d-17a6-45f5-b519-932647cf900a&algo_exp_id=ba58545d-17a6-45f5-b519-932647cf900a-0&pdp_ext_f=%7B%22order%22%3A%223794%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%211.39%210.99%21%21%211.39%210.99%21%402103146f17515584028978959ea8ad%2112000029785371583%21sea%21US%210%21ABX&curPageLogUid=mUXyLOtzm5V2&utparam-url=scene%3Asearch%7Cquery_from%3A)"> Link </a> |
-| Wires | Used to connect everthing | $0.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.aliexpress.us/item/3256807681844118.html?spm=a2g0o.productlist.main.8.60087044DZEHGv&aem_p4p_detail=202507030900315260555650590790001624135&algo_pvid=9cd11205-cb02-4323-92f2-3128aa069a37&algo_exp_id=9cd11205-cb02-4323-92f2-3128aa069a37-7&pdp_ext_f=%7B%22order%22%3A%22247%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%213.99%210.99%21%21%2128.45%217.11%21%402101c5a417515584316401102eaf5e%2112000042656642092%21sea%21US%210%21ABX&curPageLogUid=bsfFq09YUqjL&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=202507030900315260555650590790001624135_2)"> Link </a> |
-
-# Sources
-
-- https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/
-  
-- https://docs.cirkitdesigner.com/component/d1439f73-3af9-06c4-8e23-235ee200a5f1/hc-05-bluetooth-module
-  
-- https://www.geeksforgeeks.org/electronics-engineering/overview-of-the-arduino-uno-components/
-  
-- https://www.researchgate.net/figure/Arduino-Nano-hardware-circuit-diagram_fig4_335065396
-
-<!--# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)-->
-
-<!--To watch the BSE tutorial on how to create a portfolio, click here. -->
