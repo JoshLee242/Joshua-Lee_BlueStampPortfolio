@@ -28,17 +28,7 @@ During my time at BSE, one of the most valuable things I learned was how to code
 
 
 
-## ![label](arduninoimage.jpeg)
 
-Figure 11: Diagram of an Arduino UNO used in the project
-
-## ![label](nanoimage.jpeg)
-
-Figure 10: Diagram of an Arduino Nano used in this project
-
-# Microcontrollers
-
-In my project, I have two different microcontrollers - The Arduino UNO and Arduino NANO. The purpose of these microcontrollers is to embed the code into the other components. They act like small specialized computers that allow the robot to function without being plugged into a laptop.
 
 
 ## ![label](8huhuhuuhuhuh.jpeg)
@@ -146,7 +136,21 @@ Challenges that I faced while making the RGB slider included soldering too much 
 
 The next thing I will do is create my main project - the gesture-controlled robot.
 
+## ![label](arduninoimage.jpeg)
+
+Figure 11: Diagram of an Arduino UNO used in the project
+
+## ![label](nanoimage.jpeg)
+
+Figure 10: Diagram of an Arduino Nano used in this project
+
+# Microcontrollers
+
+In my project, I have two different microcontrollers - The Arduino UNO and Arduino NANO. The purpose of these microcontrollers is to embed the code into the other components. They act like small specialized computers that allow the robot to function without being plugged into a laptop.
+
+
 # Schematics of the Hardware on my Gesture-Controlled Robot 
+
 <!-- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resources to create professional schematic diagrams, though BSE recommends Tinkercad because it can be done easily and for free in the browser. -->
 
 
