@@ -57,11 +57,6 @@ Figure 5.2: Design drawing of front part of frame
 
 Figure 5: Front part of my frame
 
-![label](L298N-Block-Diagram-Current-Flow-How-It-Works.webp)
-
-Figure 4: Diagram of the L280N in the robot
-
-The L280N has two H-Bridges, which are an electric circuit that allows a DC motor to be driven in both forward and backward directions. This is accomplished by the four switches on the outer parameters of the circuit board. By controlling which switches are on and off, you can easily control the direction the motors spin. For example, if the IN1 and IN3 switches were set to high, and the IN2 and IN4 switches were set to low, then the motors would move forward. Without the help of the L280N, which changes the way the current flows to easily change the polarity of the motor, you would have to manually change the polarity of the DC motor to change the direction it's spinning. I used an L280N, which has two H-bridges, in my robot to control the direction of the four DC motors on the drivetrain and connect the batteries to all the other hardware. Each H-bridge is connected to one pair of motors on each side, which is seen in figure 3 above.
 
 # Second Milestone
 
@@ -131,6 +126,12 @@ Challenges that I faced while making the RGB slider included soldering too much 
 
 The next thing I will do is create my main project - the gesture-controlled robot.
 
+![label](L298N-Block-Diagram-Current-Flow-How-It-Works.webp)
+
+Figure 4: Diagram of the L280N in the robot
+
+The L280N has two H-Bridges, which are an electric circuit that allows a DC motor to be driven in both forward and backward directions. This is accomplished by the four switches on the outer parameters of the circuit board. By controlling which switches are on and off, you can easily control the direction the motors spin. For example, if the IN1 and IN3 switches were set to high, and the IN2 and IN4 switches were set to low, then the motors would move forward. Without the help of the L280N, which changes the way the current flows to easily change the polarity of the motor, you would have to manually change the polarity of the DC motor to change the direction it's spinning. I used an L280N, which has two H-bridges, in my robot to control the direction of the four DC motors on the drivetrain and connect the batteries to all the other hardware. Each H-bridge is connected to one pair of motors on each side, which is seen in figure 3 above.
+
 ## ![label](arduninoimage.jpeg)
 
 Figure 11: Diagram of an Arduino UNO used in the project
@@ -159,10 +160,13 @@ Figure 2: Schematic of Bluetooth sending module (gauntlet) - HC-O5, MPU 6050, an
 
 # Sources
 
-https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/
-https://docs.cirkitdesigner.com/component/d1439f73-3af9-06c4-8e23-235ee200a5f1/hc-05-bluetooth-module
-https://www.geeksforgeeks.org/electronics-engineering/overview-of-the-arduino-uno-components/
-https://www.researchgate.net/figure/Arduino-Nano-hardware-circuit-diagram_fig4_335065396
+- https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/
+  
+- https://docs.cirkitdesigner.com/component/d1439f73-3af9-06c4-8e23-235ee200a5f1/hc-05-bluetooth-module
+  
+- https://www.geeksforgeeks.org/electronics-engineering/overview-of-the-arduino-uno-components/
+  
+- https://www.researchgate.net/figure/Arduino-Nano-hardware-circuit-diagram_fig4_335065396
 
 # Appendix
 
