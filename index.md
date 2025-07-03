@@ -1,6 +1,6 @@
 # Gesture Controlled Robot
 
-My project is the Gesture Controlled Robot. The robot is a car that can be controlled with gestures performed on a gauntlet that rests on your hand. Whenever you tilt the gauntlet forwards, backward, right, or left, the robot moves correspondingly. A modification that I added lets me control a robotic arm on the front of the car to pick things up. The arm is slo controlled on the gauntlet, but instead of tilting, it is controlled by joysticks
+My project is the Gesture Controlled Robot. The robot is a car that can be controlled with gestures performed on a gauntlet that rests on your hand. Whenever you tilt the gauntlet forwards, backward, right, or left, the robot moves correspondingly. A modification that I added lets me control a robotic arm on the front of the car to pick things up. The arm is alsoo controlled on the gauntlet, but instead of tilting, it is controlled by joysticks.
 
 
 
@@ -27,6 +27,18 @@ The biggest challenge I faced during BSE was figuring out how the Bluetooth conn
 During my time at BSE, one of the most valuable things I learned was how to code using Arduino. Before this camp, I had no prior experience with programming but now I have a solid understanding of the basics of coding and a much deeper appreciation for the complexity behind coding projects. I also gained hands-on experience working with components like the L298N motor driver (Figure 4) and the HC-05 Bluetooth module (Figure 9). These were completely new to me at the start, but I can now explain the function of each port and how they contribute to the overall performance of my robot. Looking ahead, I hope to improve my coding skills and develop a deeper understanding of how each line of code affects a robot.
 
 
+
+## ![label](ardunino image.jpeg)
+
+Figure 11: Diagram of an Arduino UNO used in the project
+
+## ![label](nano image.jpeg)
+
+Figure 10: Diagram of an Arduino Nano used in this project
+
+# Microcontrollers
+
+In my project, I have two different microcontrollers - The Arduino UNO and Arduino NANO. The purpose of these microcontrollers is to embed the code into the other components. They act like small specialized computers that allow the robot to function without being plugged into a laptop.
 
 
 ## ![label](8huhuhuuhuhuh.jpeg)
