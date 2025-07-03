@@ -52,6 +52,9 @@ Figure 5B: Design drawing of the front part of the frame
 
 Figure 5A: This is the front section of my frame that will go on my robot. The arcs on the side give the wheels space to turn, and the joints on the end help connect the front and back sections.
 
+# Frame on robot
+
+![logo](688BE289-EDB4-4268-8919-D5E2A4B38FC8.jpeg)
 
 # Second Milestone
 
