@@ -24,12 +24,7 @@ The biggest challenge I faced during BSE was figuring out how the Bluetooth conn
 
 ## What I Learned at BSE and What I Hope to Learn in the Future
 
-During my time at BSE, one of the most valuable things I learned was how to code using Arduino. Before this camp, I had no prior experience with programming but now I have a solid understanding of the basics of coding and a much deeper appreciation for the complexity behind coding projects. I also gained hands-on experience working with components like the L298N motor driver (Figure 4) and the HC-05 Bluetooth module (Figure 9). These were completely new to me at the start, but I can now explain the function of each port and how they contribute to the overall performance of my robot. Looking ahead, I hope to improve my coding skills and develop a deeper understanding of how each line of code affects a robot.
-
-
-
-
-
+During my time at BSE, one of the most valuable things I learned was how to code using Arduino. Before this camp, I had no prior experience with programming but now I have a solid understanding of C++, and now I also have hands-on experience working with components like the L298N motor driver (Figure 4) and the HC-05 Bluetooth module (Figure 9). These were completely new to me in the beginning, but I can now explain the function of each port. Looking ahead, I hope to improve my coding skills and understand how daily objects work in a completley new view.
 
 ## ![label](8huhuhuuhuhuh.jpeg)
 
@@ -146,7 +141,7 @@ Figure 10: Diagram of an Arduino Nano used in this project
 
 # Microcontrollers
 
-In my project, I have two different microcontrollers - The Arduino UNO and Arduino NANO. The purpose of these microcontrollers is to embed the code into the other components. They act like small specialized computers that allow the robot to function without being plugged into a laptop.
+In my project, I have two different microcontrollers - The Arduino UNO and Arduino NANO. The difference between the two is that the NANO is breadboard-friendly which allows it to be portable, while the UNO is much larger and has more ports, so it can control more components. The purpose of these microcontrollers is to embed the code into the other components. They act like small specialized computers that allow the robot to function without being plugged into a laptop.
 
 
 # Schematics of the Hardware on my Gesture-Controlled Robot 
