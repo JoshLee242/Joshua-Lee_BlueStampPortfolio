@@ -17,6 +17,8 @@ My project is the Gesture Controlled Robot. The robot is a car that can be contr
 ## Description 
 
 This is the final milestone of my project, excluding the modifications, and I think it turned out pretty well. Since my previous milestone, I 3D printed cases for my circuit boards to attach them to the base. The reason for this is that they would keep sliding around, and these cases held them in place. Furthermore, I was also able to 3D print a frame that encases the robot. To put it on, I plastic-welded the joints (as seen in figures 5 and 6) so they stuck together nicely. To weld them together, I used a soldering iron to heat both sections until they melted into each other. Then, I filed down the buffering from the 3D print as a finishing touch. The frame will let me attach modifications on top of the car and make the robot look complete. 
+
+Since this is the last regular milestone of my project, I will explain how my gesture-controlled robot works. To understand how the entire project works, you have to start with the drivetrain. The drivetrain consists of 4 components. The base, motors, wires, and wheels. The motors are attached to the base plate and have two soldered wires - one positive and negative - which are connected to the L280N on the top base plate.  
 ## Challenges
 
 A challenge that I faced was when I was putting on the frame of the robot. The orientation of the Arduino UNO case was positioned in a way so that the ports were not accessible when I put the frame on. So, I turned the UNO case around, but had a new problem - the frame didn't fit. Luckily, after filing the UNO case down the frame fit in its place.
@@ -28,27 +30,27 @@ Now that I have finished the non-modified robot, I will spend the rest of my tim
 
 
 ![label](Screenshot 2025-07-02 at 10.25.53 AM.jpeg)
-Figure 8.2: Design drawing for Arduino Case
+Figure 8B: Design drawing for Arduino Case
 ![label](Screenshot 2025-07-02 at 10.05.51 AM.jpeg) 
 
-Figure 8: Case for the Arduino UNO - screw holes go through the lip on the right side of the case.
+Figure 8A: Case for the Arduino UNO - screw holes go through the lip on the right side of the case.
 
 ![label](Screenshot 2025-07-02 at 11.26.21 AM.jpeg)
-Figure 7.2: Design drawing for L280N case
+Figure 7B: Design drawing for L280N case
 ![label](Screenshot 2025-07-02 at 9.43.19 AM.jpeg) 
 
-Figure 7: Case for the L280N - dips on the right, left, and front allow the wires to pass through.
+Figure 7A: Case for the L280N - dips on the right, left, and front allow the wires to pass through.
 ![label](Screenshot 2025-07-02 at 10.34.52 AM.jpeg)
-Figure 6.2: Design drawing of the back part of the frame
+Figure 6B: Design drawing of the back part of the frame
 ![label](Screenshot 2025-07-02 at 9.43.02 AM.jpeg) 
 
-Figure 6: This is the back section of my frame. The arcs give the wheels space to move, and the joints connect the two parts.  
+Figure 6A: This is the back section of my frame. The arcs give the wheels space to move, and the joints connect the two parts.  
 
 ![label](Screenshot 2025-07-02 at 11.17.40 AM.jpeg)
-Figure 5.2: Design drawing of the front part of the frame
+Figure 5B: Design drawing of the front part of the frame
 ![label](Screenshot 2025-07-02 at 9.42.41 AM.jpeg) 
 
-Figure 5: This is the front section of my frame that will go on my robot. The arcs on the side give the wheels space to turn, and the joints on the end help connect the front and back sections.
+Figure 5A: This is the front section of my frame that will go on my robot. The arcs on the side give the wheels space to turn, and the joints on the end help connect the front and back sections.
 
 
 # Second Milestone
@@ -104,6 +106,8 @@ To finish this project, I have to code the Bluetooth to control the movement of 
 
 
 
+# How it works
+
 ## ![label](8huhuhuuhuhuh.jpeg)
 
 Figure 9: Close up of a Bluetooth HC-O5 module
@@ -144,7 +148,6 @@ Figure 2: Schematic of Bluetooth sending module (gauntlet) - HC-O5, MPU 6050, an
 
 
 
-
 ## Starter Project (Milestone)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ux6VDJUyapE?si=GVTSBreFM2V7pruh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -162,28 +165,6 @@ Challenges that I faced while making the RGB slider included soldering too much 
 The next thing I will do is create my main project - the gesture-controlled robot.
 
 
-# Schematics of the Hardware on my Gesture-Controlled Robot 
-
-<!-- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resources to create professional schematic diagrams, though BSE recommends Tinkercad because it can be done easily and for free in the browser. -->
-
-
-<img width="1077" alt="Screenshot 2025-06-23 at 10 35 58 AM" src="https://github.com/user-attachments/assets/3361343b-8cfd-46c9-b240-7cd21a854c9d" />
-
-Figure 1: Schematic of the Gesture Controlled Robot's hardware - Arduino UNO, L280N, 4 DC motors, 4 AAA batteries, and HC-O5
-
-<img width="404" alt="Screenshot 2025-06-23 at 10 36 30 AM" src="https://github.com/user-attachments/assets/08002af4-b6ea-41a2-be5d-0f0e5a7ad2d7" />
-
-Figure 2: Schematic of Bluetooth sending module (gauntlet) - HC-O5, MPU 6050, and Arduino NANO
-
-# Sources
-
-- https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/
-  
-- https://docs.cirkitdesigner.com/component/d1439f73-3af9-06c4-8e23-235ee200a5f1/hc-05-bluetooth-module
-  
-- https://www.geeksforgeeks.org/electronics-engineering/overview-of-the-arduino-uno-components/
-  
-- https://www.researchgate.net/figure/Arduino-Nano-hardware-circuit-diagram_fig4_335065396
 
 # Appendix
 
@@ -418,8 +399,16 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Breadboard | Used to connect circuit boards and HC-O5's together with help of wires | $0.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.aliexpress.us/item/3256804346037929.html?spm=a2g0o.productlist.main.1.3d6d622583Hjli&algo_pvid=ba58545d-17a6-45f5-b519-932647cf900a&algo_exp_id=ba58545d-17a6-45f5-b519-932647cf900a-0&pdp_ext_f=%7B%22order%22%3A%223794%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%211.39%210.99%21%21%211.39%210.99%21%402103146f17515584028978959ea8ad%2112000029785371583%21sea%21US%210%21ABX&curPageLogUid=mUXyLOtzm5V2&utparam-url=scene%3Asearch%7Cquery_from%3A)"> Link </a> |
 | Wires | Used to connect everthing | $0.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.aliexpress.us/item/3256807681844118.html?spm=a2g0o.productlist.main.8.60087044DZEHGv&aem_p4p_detail=202507030900315260555650590790001624135&algo_pvid=9cd11205-cb02-4323-92f2-3128aa069a37&algo_exp_id=9cd11205-cb02-4323-92f2-3128aa069a37-7&pdp_ext_f=%7B%22order%22%3A%22247%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%213.99%210.99%21%21%2128.45%217.11%21%402101c5a417515584316401102eaf5e%2112000042656642092%21sea%21US%210%21ABX&curPageLogUid=bsfFq09YUqjL&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=202507030900315260555650590790001624135_2)"> Link </a> |
 
+# Sources
 
-# Other Resources/Examples
+- https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/
+  
+- https://docs.cirkitdesigner.com/component/d1439f73-3af9-06c4-8e23-235ee200a5f1/hc-05-bluetooth-module
+  
+- https://www.geeksforgeeks.org/electronics-engineering/overview-of-the-arduino-uno-components/
+  
+- https://www.researchgate.net/figure/Arduino-Nano-hardware-circuit-diagram_fig4_335065396
+<!--# Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
