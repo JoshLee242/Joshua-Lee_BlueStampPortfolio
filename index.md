@@ -60,7 +60,7 @@ Figure 5: This is the front section of my frame that will go on my robot. The ar
 
 ## Description 
 
-Since my first milestone, I have worked on the Bluetooth connection and the code that allows the Bluetooth to control the DC motors. I was able to successfully connect the Bluetooth modules to the motors, and now, by simply tilting the second Bluetooth module, I can move the robot forward, backward, right, and left as demonstrated in the code at the bottom of the website. During this process, I was surprised by how much easier it became to debug my code once I understood it more. 
+Since my first milestone, I have worked on the Bluetooth connection and the code that allows the Bluetooth to control the DC motors. I was able to successfully connect the Bluetooth modules to the motors, and now, by simply tilting the second Bluetooth module, I can move the robot forward, backward, right, and left as demonstrated in the code at the bottom of the website. The accelerometer in the MPU-6050 sends the acceleration data to the NANO, which converts the raw acceleration data to x, y, and z. The x, y, and z data is sent over to the HC-O5 on the robot and used to determine if the robot should stop, turn right, turn left, move forward, or move backward using if-else statements.. During this process, I was surprised by how much easier it became to debug my code once I understood it more. 
 
 ## Challenges
 
