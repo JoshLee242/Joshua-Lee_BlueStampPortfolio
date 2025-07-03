@@ -112,11 +112,11 @@ To finish this project, I have to code the Bluetooth to control the movement of 
 
 ## ![label](mpu6050.jpeg)
 
-The MPU-6050 is a acclerometer and gyroscope sensor. To measure accleration 
+The MPU-6050 is an accelerometer and gyroscope sensor. To measure the acceleration, the accelerometer detects the force exerted on a spring system located inside the MPU-6050. When the accelerometer experiences acceleration, the mass will lag behind due to its inertia, causing a deflection of the spring. This deflection is proportional to the acceleration levels the MPU experiences. In my project, I took the acceleration data from the MPU and converted it to AccX, AccY, and AccZ (which are the levels of acceleration on the x, y, z axes). Using this data, I was able to use if-else statements (code at the bottom of the portfolio) depending on the value of AccX or AccY to move the robot forwards, backward, right, or left. 
  
 ## ![label](8huhuhuuhuhuh.jpeg)
 
-Figure 9: Close up of a Bluetooth HC-O5 module
+Figure 9: Close-up of a Bluetooth HC-O5 module
 
 The HC-05 Bluetooth module is a wireless communication device that uses serial (UART) signals to send and receive data between a microcontroller (like an Arduino UNO) and another Bluetooth device, such as a smartphone or computer. It works like a wireless version of a serial cable, allowing two devices to "talk" to each other over Bluetooth instead of through physical wires. When connected, the HC-05 can receive data through its RX pin and send data through its TX pin. The module operates in either master or slave mode, and they can be reconfigured using AT commands when placed in command mode, which allows you to change things like its name, PIN, and connection settings. For example, I used an HC-05 on my robot to allow wireless control through a gauntlet that sent Bluetooth signals. 
 
