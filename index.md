@@ -14,22 +14,22 @@ My project is the Gesture Controlled Robot. The robot is a car that can be contr
 # Final Milestone
 
 
-# Description 
+## Description 
 
 This is the final milestone of my project, excluding the modifications, and I think it turned out pretty well. Since my previous milestone, I 3D printed cases for my circuit boards to attach them to the base. The reason for this is that they would keep sliding around, and these cases held them in place. Furthermore, I was also able to 3D print a frame that encases the robot. This frame will let me mount my modifications easily and make the whole robot look much neater (As seen in figures 5 and 6).
 
-# Challenges and Triumphs
+## Challenges and Triumphs
 
 The biggest challenge I faced during BSE was figuring out how the Bluetooth connection worked. The reason for this was that the Bluetooth connection that I had set up was not working for two whole days, and I did not understand why. I kept on tweaking the code to no avial until I checked the top of my code - the RX TX pins - and realized I had them swapped. After this was fixed, the Bluetooth worked very well, which led to my biggest triumph. Following the Bluetooth's success, I was able to code the rest of the robot's Bluetooth motor movement in one day. This was a big triumph for me because the other day, I was struggling with the Bluetooth to work at all.
 
-# What I Learned at BSE and What I Hope to Learn in the Future
+## What I Learned at BSE and What I Hope to Learn in the Future
 
 During my time at BSE, one of the most valuable things I learned was how to code using Arduino. Before this camp, I had no prior experience with programming but now I have a solid understanding of the basics of coding and a much deeper appreciation for the complexity behind coding projects. I also gained hands-on experience working with components like the L298N motor driver (Figure 4) and the HC-05 Bluetooth module (Figure 9). These were completely new to me at the start, but I can now explain the function of each port and how they contribute to the overall performance of my robot. Looking ahead, I hope to improve my coding skills and develop a deeper understanding of how each line of code affects a robot.
 
 
 
 
-# ![label](8huhuhuuhuhuh.jpeg)
+## ![label](8huhuhuuhuhuh.jpeg)
 
 Figure 9: Close up of a Bluetooth HC-O5 module
 
@@ -73,16 +73,16 @@ The L280N has two H-Bridges, which are an electric circuit that allows a DC moto
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rfFcs0vRWrc?si=0Uea5Bc9E_d-Tqno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-# Description 
+## Description 
 
 Since my first milestone, I have worked on the Bluetooth connection and the code that allows the Bluetooth to control the DC motors. I was able to successfully connect the Bluetooth modules to the motors, and now, by simply tilting the second Bluetooth module, I can move the robot forward, backward, right, and left—as demonstrated in the code at the bottom of the website. During this process, I was surprised by how much easier it became to debug my code once I understood it more thoroughly. Another unexpected realization was that building the hardware for the robot was about three times easier than writing and troubleshooting the software needed to control it.
 
-# Challenges
+## Challenges
 
 One of the biggest challenges I faced was accidentally flipping the RX and TX pin connections. Before realizing that this was the issue, I spent a lot of time changing the code and writing separate test scripts to identify the problem. When none of those worked, I finally checked the wiring and discovered that I had swapped the RX and TX pins. After correcting that, I also had to replace two dead batteries because the motors did not have enough power to start consistently. Once those two problems were fixed, the robot functioned properly.
 
 
-# What's Next?
+## What's Next?
 
 In the 3rd milestone, I will create holding structures for all my circuit boards so they don't slide around while the robot is moving, while also adding finishing touches such as organizing the wires and making framing for the whole robot to look aesthetically pleasing.
 
@@ -108,29 +108,29 @@ Figure 3: Flow chart of the code that connects gesture motions to motor movement
 <!-- Challenges you're facing and solving in your future milestones -->
 <!-- What your plan is to complete your project -->
 
-# Description
+## Description
 My main project is the Gesture Controlled Robot, and I plan to finish it in this camp. The project includes two major components - the 4 DC motors for movement and the Bluetooth connections for control. These two components will work together to move the robot around and display the gesture-controlling feature. By this first milestone, I have completed the hardware for the robot along with the code that controls the motor movement. As seen in Figure 1, the hardware includes the drivetrain, Arduino UNO board, L280N board, Bluetooth receiver, and Bluetooth master. The code I implemented coded the motor movement for the robot. I did this by connecting the Arduino UNO and L280N boards to the motors, which allowed me to easily code the movement through the IN1, IN2, IN3, and IN4 ports. I have also connected the two Bluetooth modules - one master and one slave - so they are now ready to code and control the robot. The master module is seen in Figure 2, and the slave module is found in Figure 1.
 
-# Challenges
+## Challenges
 When configuring the motors for the first time, I realized that one motor on each side was spinning in the wrong direction. At  first, I didn't know what was wrong and tried to change the code, but I realized that I had to change the motor polarity for them to move in the correct direction. So, I flipped the two sets of wires connected to the L280N board and was able to fix the motor polarity. Luckily, this robot has a DC motor that can change polarities easily, unlike other motors such as AC and single-phase.
 
-# What's Next?
+## What's Next?
 To finish this project, I have to code the Bluetooth to control the movement of my robot along with adding some modifications.
 
 
-# Starter Project (Milestone)
+## Starter Project (Milestone)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ux6VDJUyapE?si=GVTSBreFM2V7pruh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-# Description
+## Description
 
 For my starter project, I chose to do the RGB slider. The reason for this is that I want to design headlights and taillights for my gesture-controlled robot that turn on when I move forward or backward. This project provided me with experience in coding LEDs, which will help me make these modifications to my final project. The RGB slider is a small board that contains three RGB sliders, an LED, and a USB-C port. The three RGB sliders control an LED. Three colors - blue, red, and green - are mixed to display different colors on the LED. As you slide the sliders up and down, the strength of the color increases or decreases. There are almost an infinite combinations of colors I can use to light up my LED, and everything on the board is powered by a USB-C that is connected to my laptop. 
 
-# Challenges
+## Challenges
 
 Challenges that I faced while making the RGB slider included soldering too much and soldering the whole board upside down. As easy as this project was, I forgot to ask my instructor if I was doing everything on the right side. This made me have to redo the entire RGB slider on the other side of the board. To do this, I unsoldered everything and resoldered it on the other side. 
 
-# What's Next?
+## What's Next?
 
 The next thing I will do is create my main project - the gesture-controlled robot.
 
