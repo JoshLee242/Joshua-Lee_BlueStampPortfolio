@@ -19,7 +19,7 @@ My project is the Gesture Controlled Robot. The robot is a car that can be contr
 This is the final milestone of my project, excluding the modifications, and I think it turned out pretty well. Since my previous milestone, I 3D printed cases for my circuit boards to attach them to the base. The reason for this is that they would keep sliding around, and these cases held them in place. Furthermore, I was also able to 3D print a frame that encases the robot. To put it on, I plastic-welded the joints (as seen in figures 5 and 6) so they stuck together nicely. This frame will allow me to make modifications on top and make the robot look complete.
 ## Challenges
 
-The biggest challenge I faced during BSE was figuring out how the Bluetooth connection worked. The reason for this was that the Bluetooth connection that I had set up was not working for two whole days, and I did not understand why. I kept on tweaking the code to no avail until I checked the top of my code - the RX and TX pins - and realized I had them swapped.  Following the Bluetooth's success, I was able to code the rest of the robot's Bluetooth motor movement in one day. Another smaller challenge that I faced was when I was putting on the frame of the robot. The orientation of the Arduino UNO case was positioned in a way so that the ports were not accessible when I put the frame on. So, I turned the UNO case around, but had a new problem - the frame didn't fit. Luckily, after filing the UNO case down the frame fit in its place.
+A challenge that I faced was when I was putting on the frame of the robot. The orientation of the Arduino UNO case was positioned in a way so that the ports were not accessible when I put the frame on. So, I turned the UNO case around, but had a new problem - the frame didn't fit. Luckily, after filing the UNO case down the frame fit in its place.
 
 ## What's Next?
 
@@ -101,6 +101,48 @@ When configuring the motors for the first time, I realized that one motor on eac
 
 ## What's Next?
 To finish this project, I have to code the Bluetooth to control the movement of my robot along with adding some modifications.
+
+
+## ![label](8huhuhuuhuhuh.jpeg)
+
+Figure 9: Close up of a Bluetooth HC-O5 module
+
+The HC-05 Bluetooth module is a wireless communication device that uses serial (UART) signals to send and receive data between a microcontroller (like an Arduino UNO) and another Bluetooth device, such as a smartphone or computer. It works like a wireless version of a serial cable, allowing two devices to "talk" to each other over Bluetooth instead of through physical wires. When connected, the HC-05 can receive data through its RX pin and send data through its TX pin. The module operates in either master or slave mode, and they can be reconfigured using AT commands when placed in command mode, which allows you to change things like its name, PIN, and connection settings. For example, I used an HC-05 on my robot to allow wireless control through a gauntlet that sent Bluetooth signals. 
+
+
+![label](L298N-Block-Diagram-Current-Flow-How-It-Works.webp)
+
+Figure 4: Diagram of the L280N in the robot
+
+The L280N has two H-Bridges, which are an electric circuit that allows a DC motor to be driven in both forward and backward directions. This is accomplished by the four switches on the outer parameters of the circuit board. By controlling which switches are on and off, you can easily control the direction the motors spin. For example, if the IN1 and IN3 switches were set to high, and the IN2 and IN4 switches were set to low, then the motors would move forward. Without the help of the L280N, which changes the way the current flows to easily change the polarity of the motor, you would have to manually change the polarity of the DC motor to change the direction it's spinning. I used an L280N, which has two H-bridges, in my robot to control the direction of the four DC motors on the drivetrain and connect the batteries to all the other hardware. Each H-bridge is connected to one pair of motors on each side, which is seen in figure 3 above.
+
+## ![label](arduninoimage.jpeg)
+
+Figure 11: Diagram of an Arduino UNO used in the project
+
+## ![label](nanoimage.jpeg)
+
+Figure 10: Diagram of an Arduino Nano used in this project
+
+# Microcontrollers
+
+In my project, I have two different microcontrollers - The Arduino UNO and Arduino NANO. The difference between the two is that the NANO is breadboard-friendly which allows it to be portable, while the UNO is much larger and has more ports, so it can control more components. The purpose of these microcontrollers is to embed the code into the other components. They act like small specialized computers that allow the robot to function without being plugged into a laptop.
+
+
+# Schematics of the Hardware on my Gesture-Controlled Robot 
+
+<!-- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resources to create professional schematic diagrams, though BSE recommends Tinkercad because it can be done easily and for free in the browser. -->
+
+
+<img width="1077" alt="Screenshot 2025-06-23 at 10 35 58 AM" src="https://github.com/user-attachments/assets/3361343b-8cfd-46c9-b240-7cd21a854c9d" />
+
+Figure 1: Schematic of the Gesture Controlled Robot's hardware - Arduino UNO, L280N, 4 DC motors, 4 AAA batteries, and HC-O5
+
+<img width="404" alt="Screenshot 2025-06-23 at 10 36 30 AM" src="https://github.com/user-attachments/assets/08002af4-b6ea-41a2-be5d-0f0e5a7ad2d7" />
+
+Figure 2: Schematic of Bluetooth sending module (gauntlet) - HC-O5, MPU 6050, and Arduino NANO
+
+
 
 
 ## Starter Project (Milestone)
