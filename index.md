@@ -20,17 +20,12 @@ This is the final milestone of my project, excluding the modifications, and I th
 
 ## Challenges
 
-The biggest challenge I faced during BSE was figuring out how the Bluetooth connection worked. The reason for this was that the Bluetooth connection that I had set up was not working for two whole days, and I did not understand why. I kept on tweaking the code to no avial until I checked the top of my code - the RX TX pins - and realized I had them swapped.  Following the Bluetooth's success, I was able to code the rest of the robot's Bluetooth motor movement in one day. 
+The biggest challenge I faced during BSE was figuring out how the Bluetooth connection worked. The reason for this was that the Bluetooth connection that I had set up was not working for two whole days, and I did not understand why. I kept on tweaking the code to no avail until I checked the top of my code - the RX and TX pins - and realized I had them swapped.  Following the Bluetooth's success, I was able to code the rest of the robot's Bluetooth motor movement in one day. Another smaller challenge that I faced was when I was putting on the frame of the robot. The orientation of the Arduino UNO case was positioned in a way so that the ports were not accessible when I put the frame on. So, I turned the UNO case around, but had a new problem - the frame didn't fit. Luckily, after filing the UNO case down the frame fit in its place.
 
 ## What's Next?
 
 Now that I have finished the non-modified robot, I will spend the rest of my time on modifications such as a robotic arm and LEDs.
 
-## ![label](8huhuhuuhuhuh.jpeg)
-
-Figure 9: Close up of a Bluetooth HC-O5 module
-
-The HC-05 Bluetooth module is a wireless communication device that uses serial (UART) signals to send and receive data between a microcontroller (like an Arduino UNO) and another Bluetooth device, such as a smartphone or computer. It works like a wireless version of a serial cable, allowing two devices to "talk" to each other over Bluetooth instead of through physical wires. When connected, the HC-05 can receive data through its RX pin and send data through its TX pin. The module operates in either master or slave mode, and they can be reconfigured using AT commands when placed in command mode, which allows you to change things like its name, PIN, and connection settings. For example, I used an HC-05 on my robot to allow wireless control through a gauntlet that sent Bluetooth signals. 
 
 
 ![label](Screenshot 2025-07-02 at 10.25.53 AM.jpeg)
@@ -48,13 +43,13 @@ Figure 7: Case for the L280N - dips on the right, left, and front allow the wire
 Figure 6.2: Design drawing of the back part of the frame
 ![label](Screenshot 2025-07-02 at 9.43.02 AM.jpeg) 
 
-Figure 6: Back part of my frame - the arcs on the sides are clearance for the wheels, and the spacing on the back is for the battery case.
+Figure 6: This is the back section of my frame. The arcs give the wheels space to move, and the joints connect the two parts.  
 
 ![label](Screenshot 2025-07-02 at 11.17.40 AM.jpeg)
 Figure 5.2: Design drawing of the front part of the frame
 ![label](Screenshot 2025-07-02 at 9.42.41 AM.jpeg) 
 
-Figure 5: Front part of my frame - spacing on the joint of the frame is for a screw that extrudes from the base.
+Figure 5: This is the front section of my frame that will go on my robot. The arcs on the side give the wheels space to turn, and the joints on the end help connect the front and back sections.
 
 
 # Second Milestone
@@ -124,6 +119,14 @@ Challenges that I faced while making the RGB slider included soldering too much 
 ## What's Next?
 
 The next thing I will do is create my main project - the gesture-controlled robot.
+
+
+## ![label](8huhuhuuhuhuh.jpeg)
+
+Figure 9: Close up of a Bluetooth HC-O5 module
+
+The HC-05 Bluetooth module is a wireless communication device that uses serial (UART) signals to send and receive data between a microcontroller (like an Arduino UNO) and another Bluetooth device, such as a smartphone or computer. It works like a wireless version of a serial cable, allowing two devices to "talk" to each other over Bluetooth instead of through physical wires. When connected, the HC-05 can receive data through its RX pin and send data through its TX pin. The module operates in either master or slave mode, and they can be reconfigured using AT commands when placed in command mode, which allows you to change things like its name, PIN, and connection settings. For example, I used an HC-05 on my robot to allow wireless control through a gauntlet that sent Bluetooth signals. 
+
 
 ![label](L298N-Block-Diagram-Current-Flow-How-It-Works.webp)
 
