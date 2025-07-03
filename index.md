@@ -16,7 +16,7 @@ My project is the Gesture Controlled Robot. The robot is a car that can be contr
 
 ## Description 
 
-This is the final milestone of my project, excluding the modifications, and I think it turned out pretty well. Since my previous milestone, I 3D printed cases for my circuit boards to attach them to the base. The reason for this is that they would keep sliding around, and these cases held them in place. Furthermore, I was also able to 3D print a frame that encases the robot. To put it on, I plastic-welded the joints (as seen in figures 5 and 6) so they stuck together nicely. This frame will allow me to make modifications on top and make the robot look complete.
+This is the final milestone of my project, excluding the modifications, and I think it turned out pretty well. Since my previous milestone, I 3D printed cases for my circuit boards to attach them to the base. The reason for this is that they would keep sliding around, and these cases held them in place. Furthermore, I was also able to 3D print a frame that encases the robot. To put it on, I plastic-welded the joints (as seen in figures 5 and 6) so they stuck together nicely. To weld them together, I used a soldering iron to heat both sections until they melted into each other. Then, I filed down the buffering from the 3D print as a finishing touch. 
 ## Challenges
 
 A challenge that I faced was when I was putting on the frame of the robot. The orientation of the Arduino UNO case was positioned in a way so that the ports were not accessible when I put the frame on. So, I turned the UNO case around, but had a new problem - the frame didn't fit. Luckily, after filing the UNO case down the frame fit in its place.
