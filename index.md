@@ -18,13 +18,13 @@ My project is the Gesture Controlled Robot. The robot is a car that can be contr
 
 This is the final milestone of my project, excluding the modifications, and I think it turned out pretty well. Since my previous milestone, I 3D printed cases for my circuit boards to attach them to the base. The reason for this is that they would keep sliding around, and these cases held them in place. Furthermore, I was also able to 3D print a frame that encases the robot. This frame will let me mount my modifications easily and make the whole robot look much neater (As seen in figures 5 and 6).
 
-## Challenges and Triumphs
+## Challenges
 
-The biggest challenge I faced during BSE was figuring out how the Bluetooth connection worked. The reason for this was that the Bluetooth connection that I had set up was not working for two whole days, and I did not understand why. I kept on tweaking the code to no avial until I checked the top of my code - the RX TX pins - and realized I had them swapped. After this was fixed, the Bluetooth worked very well, which led to my biggest triumph. Following the Bluetooth's success, I was able to code the rest of the robot's Bluetooth motor movement in one day. This was a big triumph for me because the other day, I was struggling with the Bluetooth to work at all.
+The biggest challenge I faced during BSE was figuring out how the Bluetooth connection worked. The reason for this was that the Bluetooth connection that I had set up was not working for two whole days, and I did not understand why. I kept on tweaking the code to no avial until I checked the top of my code - the RX TX pins - and realized I had them swapped.  Following the Bluetooth's success, I was able to code the rest of the robot's Bluetooth motor movement in one day. 
 
-## What I Learned at BSE and What I Hope to Learn in the Future
+## What's Next?
 
-During my time at BSE, one of the most valuable things I learned was how to code using Arduino. Before this camp, I had no prior experience with programming but now I have a solid understanding of C++, and now I also have hands-on experience working with components like the L298N motor driver (Figure 4) and the HC-05 Bluetooth module (Figure 9). These were completely new to me in the beginning, but I can now explain the function of each port. Looking ahead, I hope to improve my coding skills and understand how daily objects work in a completley new view.
+Now that I have finished the non-modified robot, I will spend the rest of my time on modifications such as a robotic arm and LEDs.
 
 ## ![label](8huhuhuuhuhuh.jpeg)
 
@@ -37,25 +37,24 @@ The HC-05 Bluetooth module is a wireless communication device that uses serial (
 Figure 8.2: Design drawing for Arduino Case
 ![label](Screenshot 2025-07-02 at 10.05.51 AM.jpeg) 
 
-Figure 8: Case for the Arduino UNO
+Figure 8: Case for the Arduino UNO - screw holes go through the lip on the right side of the case.
 
 ![label](Screenshot 2025-07-02 at 11.26.21 AM.jpeg)
 Figure 7.2: Design drawing for L280N case
 ![label](Screenshot 2025-07-02 at 9.43.19 AM.jpeg) 
 
-Figure 7: Case for the L280N
-
+Figure 7: Case for the L280N - dips on the right, left, and front allow the wires to pass through.
 ![label](Screenshot 2025-07-02 at 10.34.52 AM.jpeg)
-Figure 6.2: Desgin drawing of back part of frame
+Figure 6.2: Design drawing of the back part of the frame
 ![label](Screenshot 2025-07-02 at 9.43.02 AM.jpeg) 
 
-Figure 6: Back part of my frame
+Figure 6: Back part of my frame - the arcs on the sides are clearance for the wheels, and the spacing on the back is for the battery case.
 
 ![label](Screenshot 2025-07-02 at 11.17.40 AM.jpeg)
-Figure 5.2: Design drawing of front part of frame
+Figure 5.2: Design drawing of the front part of the frame
 ![label](Screenshot 2025-07-02 at 9.42.41 AM.jpeg) 
 
-Figure 5: Front part of my frame
+Figure 5: Front part of my frame - spacing on the joint of the frame is for a screw that extrudes from the base.
 
 
 # Second Milestone
