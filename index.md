@@ -16,7 +16,11 @@ My project is the Gesture Controlled Robot. The robot is a car that can be contr
 
 ## Description
 
-Since I finished my original Gesture-controlled robot within two half-day weeks, I decided to spend the rest of my time at Bluestamp attaching a robotic arm to the top of my robot. For the first two days, I worked on constructing the hardware of the robotic arm and wiring the joysticks to the shield connected to the NANO board. 
+Since I finished my original Gesture-controlled robot within two half-day weeks, I decided to spend the rest of my time at Bluestamp attaching a robotic arm to the top of my robot. For the first two days, I worked on constructing the hardware of the robotic arm and wiring the joysticks to the NANO shield. After I was finished with the hardware, I spent a week debugging the Bluetooth connection and coding the robotic arm's movement while also creating a 3D-designed mount that goes on top of the original robot. The robotic arm is mounted onto the gesture-controlled robot, which benefits the arm's mobility and the gesture-controlled robot's ability. Without being mounted onto the gesture-controlled robot, the robotic arm is stationary with little to no mobility. This restricts the capability of the arm to a 6-inch radius of reach, unlike an unlimited reach with the gesture-controlled robot. 
+![label](Screenshot2025-07-09at10.02.01AM.jpeg)
+Figure 15: Design drawing of my robotic arm mount
+
+
 
 # Final Milestone
 
@@ -26,13 +30,13 @@ Since I finished my original Gesture-controlled robot within two half-day weeks,
 
 This is the final milestone of my project, excluding the modifications, and it turned out well. Since my previous milestone, I have 3D printed cases for my circuit boards so they attach to the base. The reason for this is that they would keep sliding around, and these 3D cases hold them in place. Furthermore, I was able to 3D print a frame that encases the robot. To incorporate this into my robot, I plastic-welded the joints (as seen in Figures 5 and 6) so they stuck together nicely. The plastic welding process starts with a soldering iron to heat both sections until they melt into each other. Then, you would have to use buffering tools to create a clean finish. The frame will let me attach modifications on top of the car and make the robot look complete. 
 
-Since this is the last regular milestone of my project, I will explain how my gesture-controlled robot works. To understand how this works, you have to start with the drivetrain. The drivetrain consists of four components: the base, motors, wires, and wheels. The motors are attached to the base plate and have two soldered wires - one positive and one negative - which are connected to the four ports on the right and left sides of the L280N. These are the input ports that enable the motors to be programmed through simple high/low commands(as shown at the bottom of the website). 
+Since this is the last regular milestone of my project, I will explain how my gesture-controlled robot works. The first step to this is understanding the drivetrain. The drivetrain consists of four components: the base, motors, wires, and wheels. The motors are attached to the base plate and have two soldered wires - one positive and one negative - which are connected to the four ports on the right and left sides of the L280N. These are the input ports that enable the motors to be programmed through simple high/low commands(as shown at the bottom of the website). 
 
-The L280N is crucial for the robot's functionality, which brings us to the second major system, the circuit boards. My robot 
+The L280N is crucial for the robot's functionality, which brings us to the second major system, the circuit boards. My project includes one L280N, one Arduino UNO, one MPU-6050, one NANO Shield, and three Nano boards. Each circuit board controls its own sector of my project, but they interact in unique ways. For example, the movement of the car is controlled by three main boards. The Arduino UNO, L280N, and MPU-6050. Both the UNO and L280N boards are located on the Gesture-controlled robot's drivetrain, while the MPU-6050 is situated on a separate console. The reason for this is that the MPU-6050 is what makes my project "gesture-controlled," and it is wirelessly connected to the robot so it can read the tilt of someone's hand. This tilt information is then sent to the UNO board that processes the information from the MPU's accelerometer and sends the data to the L280N, which uses the data to control the direction the motors move.
 
 ## Challenges
 
-A challenge that I faced was when I was putting on the frame of the robot. The orientation of the Arduino UNO case was positioned in a way so that the ports were not accessible when I put the frame on. So, I turned the UNO case around, but had a new problem - the frame didn't fit. Luckily, after filing the UNO case down the frame fit in its place.
+A challenge that I faced was when I was putting on the frame of the robot. The orientation of the Arduino UNO case was positioned in a way so that the ports were not accessible when I put the frame on. So, I turned the UNO case around, but I had a new problem: the frame didn't fit. Luckily, after filing the UNO case, the frame fit in its place.
 
 ## What's Next?
 
@@ -41,27 +45,27 @@ Now that I have finished the non-modified robot, I will spend the rest of my tim
 # CAD 3D Designs
 
 ![label](Screenshot 2025-07-02 at 10.25.53 AM.jpeg)
-Figure 8B: Design drawing for Arduino Case
+Figure 15: Design drawing for Arduino Case
 ![label](Screenshot 2025-07-02 at 10.05.51 AM.jpeg) 
 
-Figure 8A: Case for the Arduino UNO - screw holes go through the lip on the right side of the case.
+Figure 14: Case for the Arduino UNO - screw holes go through the lip on the right side of the case.
 
 ![label](Screenshot 2025-07-02 at 11.26.21 AM.jpeg)
-Figure 7B: Design drawing for L280N case
+Figure 13: Design drawing for L280N case
 ![label](Screenshot 2025-07-02 at 9.43.19 AM.jpeg) 
 
-Figure 7A: Case for the L280N - dips on the right, left, and front allow the wires to pass through.
+Figure 12: Case for the L280N - dips on the right, left, and front allow the wires to pass through.
 ![label](Screenshot 2025-07-02 at 10.34.52 AM.jpeg)
-Figure 6B: Design drawing of the back part of the frame
+Figure 11: Design drawing of the back part of the frame
 ![label](Screenshot 2025-07-02 at 9.43.02 AM.jpeg) 
 
-Figure 6A: This is the back section of my frame. The arcs give the wheels space to move, and the joints connect the two parts.  
+Figure 10: This is the back section of my frame. The arcs give the wheels space to move, and the joints connect the two parts.  
 
 ![label](Screenshot 2025-07-02 at 11.17.40 AM.jpeg)
-Figure 5B: Design drawing of the front part of the frame
+Figure 9: Design drawing of the front part of the frame
 ![label](Screenshot 2025-07-02 at 9.42.41 AM.jpeg) 
 
-Figure 5A: This is the front section of my frame that will go on my robot. The arcs on the side give the wheels space to turn, and the joints on the end help connect the front and back sections.
+Figure 8: This is the front section of my frame that will go on my robot. The arcs on the side give the wheels space to turn, and the joints on the end help connect the front and back sections.
 
 # Frame on robot
 
@@ -125,28 +129,30 @@ To finish this project, I have to code the Bluetooth to control the movement of 
 
 ## ![label](mpu6050.jpeg)
 
+Figure 7: Diagram of the MPU-6050
+
 The MPU-6050 is an accelerometer and gyroscope sensor. To measure the acceleration, the accelerometer detects the force exerted on a spring system located inside the MPU-6050. When the accelerometer experiences acceleration, the mass will lag behind due to its inertia, causing a deflection of the spring. This deflection is proportional to the acceleration levels the MPU experiences. In my project, I took the acceleration data from the MPU and converted it to AccX, AccY, and AccZ (which are the levels of acceleration on the x, y, z axes). Using this data, I was able to use if-else statements (code at the bottom of the portfolio) depending on the value of AccX or AccY to move the robot forwards, backward, right, or left. 
  
 ## ![label](8huhuhuuhuhuh.jpeg)
 
-Figure 9: Close-up of a Bluetooth HC-O5 module
+Figure 6: Close-up of a Bluetooth HC-O5 module
 
 The HC-05 Bluetooth module is a wireless communication device that uses serial (UART) signals to send and receive data between a microcontroller (like an Arduino UNO) and another Bluetooth device, such as a smartphone or computer. It works like a wireless version of a serial cable, allowing two devices to "talk" to each other over Bluetooth instead of through physical wires. When connected, the HC-05 can receive data through its RX pin and send data through its TX pin. The module operates in either master or slave mode, and they can be reconfigured using AT commands when placed in command mode, which allows you to change things like its name, PIN, and connection settings. For example, I used an HC-05 on my robot to allow wireless control through a gauntlet that sent Bluetooth signals. 
 
 
 ![label](L298N-Block-Diagram-Current-Flow-How-It-Works.webp)
 
-Figure 4: Diagram of the L280N in the robot
+Figure 5: Diagram of the L280N in the robot
 
 The L280N has two H-Bridges, which are an electric circuit that allows a DC motor to be driven in both forward and backward directions. This is accomplished by the four switches on the outer parameters of the circuit board. By controlling which switches are on and off, you can easily control the direction the motors spin. For example, if the IN1 and IN3 switches were set to high, and the IN2 and IN4 switches were set to low, then the motors would move forward. Without the help of the L280N, which changes the way the current flows to easily change the polarity of the motor, you would have to manually change the polarity of the DC motor to change the direction it's spinning. I used an L280N, which has two H-bridges, in my robot to control the direction of the four DC motors on the drivetrain and connect the batteries to all the other hardware. Each H-bridge is connected to one pair of motors on each side, which is seen in figure 3 above.
 
 ## ![label](arduninoimage.jpeg)
 
-Figure 11: Diagram of an Arduino UNO used in the project
+Figure 4: Diagram of an Arduino UNO used in the project
 
 ## ![label](nanoimage.jpeg)
 
-Figure 10: Diagram of an Arduino Nano used in this project
+Figure 3: Diagram of an Arduino Nano used in this project
 
 # Microcontrollers
 
@@ -159,11 +165,11 @@ In my project, I have two different microcontrollers - The Arduino UNO and Ardui
 
 <img width="1077" alt="Screenshot 2025-06-23 at 10 35 58 AM" src="https://github.com/user-attachments/assets/3361343b-8cfd-46c9-b240-7cd21a854c9d" />
 
-Figure 1: Schematic of the Gesture Controlled Robot's hardware - Arduino UNO, L280N, 4 DC motors, 4 AAA batteries, and HC-O5
+Figure 2: Schematic of the Gesture Controlled Robot's hardware - Arduino UNO, L280N, 4 DC motors, 4 AAA batteries, and HC-O5
 
 <img width="404" alt="Screenshot 2025-06-23 at 10 36 30 AM" src="https://github.com/user-attachments/assets/08002af4-b6ea-41a2-be5d-0f0e5a7ad2d7" />
 
-Figure 2: Schematic of Bluetooth sending module (gauntlet) - HC-O5, MPU 6050, and Arduino NANO
+Figure 1: Schematic of Bluetooth sending module (gauntlet) - HC-O5, MPU 6050, and Arduino NANO
 
 
 
