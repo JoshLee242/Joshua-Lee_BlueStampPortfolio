@@ -24,9 +24,24 @@ I faced many challenges incorporating the robotic arm into the gesture-controlle
 
 ## What's Next?
 
-![label](Screenshot2025-07-09at10.02.01AM.jpeg)
-Figure 15: Design drawing of my robotic arm mount
+Next up is my demo night presentation, where I will demonstrate how my project works, what I learned, and the challenges I've faced.
 
+### 3D robotic arm mount
+
+![label](Screenshot2025-07-09at10.02.01AM.jpeg)
+Figure 17: Design drawing of my robotic arm mount
+
+# How it works
+
+## Servos (MG90S)
+![label](Screenshot2025-07-09at11.58.40AM.jpeg)
+Figure 16: Diagram of an MG90S servo
+
+This servo contains four different components. A DC motor, gearbox, control circuit, and a potentiometer. The DC motor is the primary component that provides the mechanical power for rotation, and the gearbox is a series of gears that reduce the motor's speed while increasing torque, allowing for precise movement in degrees. Additionally, the control circuit is the brain of the servo. It receives signals from an external controller, in this case the NANO, processes them, and then determines the position, speed, and torque required for the motor shaft. Lastly, the potentiometer acts as a feedback mechanism, monitoring the motor's current position and reporting it back to the control circuit. The servo uses all of these components to determine how it should move.  
+
+## Joystick
+
+The joystick consists of three different components. A potentiometer, handle, and centering mechanism. A potentiometer is the core of the joystick module. There are two potentiometers mounted at 90-degree angles to each other. One potentiometer handles movement along the X-axis (left/right), and the other handles movement along the Y-axis (up/down). Next, the handle is a physical stick that is connected to the potentiometers. Moving the handle causes the wipers of the potentiometers to move, changing their resistance. The change in resistance is then read by the analog pin, which is how the position of a joystick is determined in a computer. Lastly, the centering mechanism springs center the joystick into the resting position, which is how it always returns to its original position. The joystick uses all these components to function and relay information of its position to a computer.
 
 
 # Final Milestone
