@@ -18,6 +18,11 @@ My project is the Gesture Controlled Robot. The robot is a car that can be contr
 
 Since I finished my original Gesture-controlled robot within two half-day weeks, I decided to spend the rest of my time at Bluestamp attaching a robotic arm to the top of my robot. For the first two days, I worked on constructing the hardware of the robotic arm and wiring the joysticks to the NANO shield. After I was finished with the hardware, I spent a week debugging the Bluetooth connection and coding the robotic arm's movement while also creating a 3D-designed mount that goes on top of the original robot. The robotic arm is mounted onto the gesture-controlled robot, which benefits the arm's mobility and the gesture-controlled robot's ability. Without being mounted onto the gesture-controlled robot, the robotic arm is stationary with little to no mobility. This restricts the capability of the arm to a 6-inch radius of reach, unlike an unlimited reach with the gesture-controlled robot. 
 
+## Challenges 
+
+I faced many challenges incorporating the robotic arm into the gesture-controlled robot, but the two biggest challenges were the Bluetooth connection and broken pieces. When I was first trying to connect my Bluetooth from the joystick to the arm, I didn't realize that the HC-O5s that I was using were faulty. The HC-O5s would not connect even if I set them in the correct master-slave relationships. But luckily, after swapping the HC-O5s out, the Bluetooth connection worked flawlessly. The other challenge that I faced was two broken pieces. When I was trying to reset one of my servos to 90 degrees, two parts connecting the arm to the base snapped off. This stopped me from attaching the robotic arm to the gesture-controlled robot and delayed everything when I only had three days left.
+
+## What's Next?
 
 ![label](Screenshot2025-07-09at10.02.01AM.jpeg)
 Figure 15: Design drawing of my robotic arm mount
