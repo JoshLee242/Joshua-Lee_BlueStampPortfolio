@@ -41,6 +41,9 @@ This servo contains four different components. A DC motor, gearbox, control circ
 
 ## Joystick
 
+![label](joystifckIMAGe.jpg)
+Figure 15: Image of the joystick in my project
+
 The joystick consists of three different components. A potentiometer, handle, and centering mechanism. A potentiometer is the core of the joystick module. There are two potentiometers mounted at 90-degree angles to each other. One potentiometer handles movement along the X-axis (left/right), and the other handles movement along the Y-axis (up/down). Next, the handle is a physical stick that is connected to the potentiometers. Moving the handle causes the wipers of the potentiometers to move, changing their resistance. The change in resistance is then read by the analog pin, which is how the position of a joystick is determined in a computer. Lastly, the centering mechanism springs center the joystick into the resting position, which is how it always returns to its original position. The joystick uses all these components to function and relay information of its position to a computer.
 
 
