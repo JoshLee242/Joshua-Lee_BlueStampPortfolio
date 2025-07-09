@@ -11,16 +11,12 @@ My project is the Gesture Controlled Robot. The robot is a car that can be contr
 
 ![Headstone Image](logo.svg)
   
-# Modifications
+# Modification
 
 
+## Description
 
-
-
-
-
-
-
+Since I finished my original Gesture-controlled robot within two half-day weeks, I decided to spend the rest of my time at Bluestamp attaching a robotic arm to the top of my robot. For the first two days, I worked on constructing the hardware of the robotic arm and wiring the joysticks to the shield connected to the NANO board. 
 
 # Final Milestone
 
@@ -28,9 +24,12 @@ My project is the Gesture Controlled Robot. The robot is a car that can be contr
 
 ## Description 
 
-This is the final milestone of my project, excluding the modifications, and I think it turned out pretty well. Since my previous milestone, I 3D printed cases for my circuit boards to attach them to the base. The reason for this is that they would keep sliding around, and these cases held them in place. Furthermore, I was also able to 3D print a frame that encases the robot. To put it on, I plastic-welded the joints (as seen in figures 5 and 6) so they stuck together nicely. To weld them together, I used a soldering iron to heat both sections until they melted into each other. Then, I filed down the buffering from the 3D print as a finishing touch. The frame will let me attach modifications on top of the car and make the robot look complete. 
+This is the final milestone of my project, excluding the modifications, and it turned out well. Since my previous milestone, I have 3D printed cases for my circuit boards so they attach to the base. The reason for this is that they would keep sliding around, and these 3D cases hold them in place. Furthermore, I was able to 3D print a frame that encases the robot. To incorporate this into my robot, I plastic-welded the joints (as seen in Figures 5 and 6) so they stuck together nicely. The plastic welding process starts with a soldering iron to heat both sections until they melt into each other. Then, you would have to use buffering tools to create a clean finish. The frame will let me attach modifications on top of the car and make the robot look complete. 
 
-Since this is the last regular milestone of my project, I will explain how my gesture-controlled robot works. To understand how the entire project works, you have to start with the drivetrain. The drivetrain consists of 4 components. The base, motors, wires, and wheels. The motors are attached to the base plate and have two soldered wires - one positive and negative - which are connected to the L280N on the top base plate.  
+Since this is the last regular milestone of my project, I will explain how my gesture-controlled robot works. To understand how this works, you have to start with the drivetrain. The drivetrain consists of four components: the base, motors, wires, and wheels. The motors are attached to the base plate and have two soldered wires - one positive and one negative - which are connected to the four ports on the right and left sides of the L280N. These are the input ports that enable the motors to be programmed through simple high/low commands(as shown at the bottom of the website). 
+
+The L280N is crucial for the robot's functionality, which brings us to the second major system, the circuit boards. My robot 
+
 ## Challenges
 
 A challenge that I faced was when I was putting on the frame of the robot. The orientation of the Arduino UNO case was positioned in a way so that the ports were not accessible when I put the frame on. So, I turned the UNO case around, but had a new problem - the frame didn't fit. Luckily, after filing the UNO case down the frame fit in its place.
