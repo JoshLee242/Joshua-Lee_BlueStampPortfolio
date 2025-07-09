@@ -17,6 +17,8 @@ My project is the Gesture Controlled Robot. The robot is a car that can be contr
 ## Description
 
 Since I finished my original Gesture-controlled robot within two half-day weeks, I decided to spend the rest of my time at Bluestamp attaching a robotic arm to the top of my robot. For the first two days, I worked on constructing the hardware of the robotic arm and wiring the joysticks to the NANO shield. After I was finished with the hardware, I spent a week debugging the Bluetooth connection and coding the robotic arm's movement while also creating a 3D-designed mount that goes on top of the original robot. The robotic arm is mounted onto the gesture-controlled robot, which benefits the arm's mobility and the gesture-controlled robot's ability. Without being mounted onto the gesture-controlled robot, the robotic arm is stationary with little to no mobility. This restricts the capability of the arm to a 6-inch radius of reach, unlike an unlimited reach with the gesture-controlled robot. 
+
+
 ![label](Screenshot2025-07-09at10.02.01AM.jpeg)
 Figure 15: Design drawing of my robotic arm mount
 
@@ -32,7 +34,11 @@ This is the final milestone of my project, excluding the modifications, and it t
 
 Since this is the last regular milestone of my project, I will explain how my gesture-controlled robot works. The first step to this is understanding the drivetrain. The drivetrain consists of four components: the base, motors, wires, and wheels. The motors are attached to the base plate and have two soldered wires - one positive and one negative - which are connected to the four ports on the right and left sides of the L280N. These are the input ports that enable the motors to be programmed through simple high/low commands(as shown at the bottom of the website). 
 
-The L280N is crucial for the robot's functionality, which brings us to the second major system, the circuit boards. My project includes one L280N, one Arduino UNO, one MPU-6050, one NANO Shield, and three Nano boards. Each circuit board controls its own sector of my project, but they interact in unique ways. For example, the movement of the car is controlled by three main boards. The Arduino UNO, L280N, and MPU-6050. Both the UNO and L280N boards are located on the Gesture-controlled robot's drivetrain, while the MPU-6050 is situated on a separate console. The reason for this is that the MPU-6050 is what makes my project "gesture-controlled," and it is wirelessly connected to the robot so it can read the tilt of someone's hand. This tilt information is then sent to the UNO board that processes the information from the MPU's accelerometer and sends the data to the L280N, which uses the data to control the direction the motors move.
+The L280N is crucial for the robot's functionality, which brings us to the second major system, the circuit boards. My project includes one L280N, one Arduino UNO, one MPU-6050, and one NANO board. Each circuit board controls its own sector of my project, but they interact in unique ways. For example, the movement of the car is controlled by four main boards. The Arduino UNO, L280N, NANO, and MPU-6050. Both the UNO and L280N boards are located on the Gesture-controlled robot's drivetrain, while the MPU-6050 and NANO boards are situated on a separate console. The reason for this is that the MPU-6050 is what makes my project "gesture-controlled," and it is wirelessly connected to the robot so it can read the tilt of someone's hand. This tilt information is processed by the NANO and then sent to the UNO board, which sends the data to the L280N, which uses the data to control the direction the motors move.
+
+Another important part of this project is Bluetooth. The Bluetooth allows wireless communication, and in my project, I used 2 HC-O5s to communicate via Bluetooth (explanation of an HC-O5 shown in Figure 6). One HC-O5 is wired to the Arduino UNO, and one is connected to the NANO. The HC-O5 wired to the NANO board sends the information of the accelerometer over to the HC-O5 on the UNO board, which then runs it through the code. The resulting data is then sent over to the L280N (through analog), and the motors move in a direction depending on the data sent over. 
+
+This whole process is happening simultaneously and is how the gesture-controlled robot functions.
 
 ## Challenges
 
