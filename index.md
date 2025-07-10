@@ -9,7 +9,7 @@ My project is the Gesture Controlled Robot. The robot is a car that can be contr
 
 <!--**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**-->
 
-![Headstone Image](JoshuaL.HEIC)
+![Headstone Image](Screenshot 2025-07-10 at 2.29.51 PM.jpeg)
   
 # Modification
 
@@ -238,6 +238,10 @@ Don't forget to place the link of where to buy each component inside the quotati
 | MPU-6050 | Used for its accelerometer, and it reads the gestures | $1.39 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.aliexpress.us/item/3256808826971954.html?src=google&pdp_npi=4%40dis%21USD%213.81%211.90%21%21%21%21%21%40%2112000047579019862%21ppc%21%21%21&src=google&albch=shopping&acnt=708-803-3821&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=UneMJZVf&gclsrc=aw.ds&albagn=888888&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=en3256808826971954&ds_e_product_merchant_id=467024831&ds_e_product_country=US&ds_e_product_language=en&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=20123152476&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=4&gad_campaignid=20127768206&gbraid=0AAAAAD6I-hGUWGr4DhiPlQ3nBdFBQgKN_&gclid=Cj0KCQjw1JjDBhDjARIsABlM2StZmpANKHuKpgTpfPdBHouGp0W-QskmYFQnVFA4EffTAex8rvVxX2oaAhTTEALw_wcB&gatewayAdapt=glo2usa)"> Link </a> |
 | Breadboard | Used to connect circuit boards and HC-O5's together with help of wires | $0.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.aliexpress.us/item/3256804346037929.html?spm=a2g0o.productlist.main.1.3d6d622583Hjli&algo_pvid=ba58545d-17a6-45f5-b519-932647cf900a&algo_exp_id=ba58545d-17a6-45f5-b519-932647cf900a-0&pdp_ext_f=%7B%22order%22%3A%223794%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%211.39%210.99%21%21%211.39%210.99%21%402103146f17515584028978959ea8ad%2112000029785371583%21sea%21US%210%21ABX&curPageLogUid=mUXyLOtzm5V2&utparam-url=scene%3Asearch%7Cquery_from%3A)"> Link </a> |
 | Wires | Used to connect everthing | $0.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.aliexpress.us/item/3256807681844118.html?spm=a2g0o.productlist.main.8.60087044DZEHGv&aem_p4p_detail=202507030900315260555650590790001624135&algo_pvid=9cd11205-cb02-4323-92f2-3128aa069a37&algo_exp_id=9cd11205-cb02-4323-92f2-3128aa069a37-7&pdp_ext_f=%7B%22order%22%3A%22247%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%213.99%210.99%21%21%2128.45%217.11%21%402101c5a417515584316401102eaf5e%2112000042656642092%21sea%21US%210%21ABX&curPageLogUid=bsfFq09YUqjL&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=202507030900315260555650590790001624135_2)"> Link </a> |
+| Robotic Arm Kit | I used this as my modification and it is mounted on the top of my gesture-controlled robot| $48.99 | <a href="https://www.amazon.com/LK-COKOINO-Compliment-Engineering-Technology/dp/B081FG1JQ1/ref=asc_df_B081FG1JQ1?mcid=9da4c6c9864a305ca1ea713827f50833&hvocijid=2083331172026415723-B081FG1JQ1-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=2083331172026415723&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-2281435178138&psc=1"> Link </a> |
+| 4 MG90S servos | used in my robotic arm joints | $13.99 | <a href="https://www.amazon.com/Miuzei-Geared-Helicopter-Arduino-Project/dp/B0CP98TZJ2/ref=sr_1_1_sspa?crid=2OSYFHM66JVL&dib=eyJ2IjoiMSJ9.KT6uBNq_77544KIMvo8eWVMxS9Y30u1jdnHZ0T4PIvMdso0ILP_JwPL0JDfpeqxji5bsNIssQTOxL-zmsPsn1Awk-JIrlUmNpKCip5ySeGyhPVpQ4_63ga_femXT_VossmQ7UoHR1kONRVpw473abwpFmQbWY6BQhODOPc96cKZ9QzxqbZE8fElr4lFE6dYRj7nbFDIjY0MBvFnWEZnWf7ipMsL57Uqt-m4dVOBEq37Gppef5j0bcCx7j5zHU1wQdCQFKJaIE0vlToK-3-2YMHgm7NbsIF-1WpwRiRtinxY.CaVUEt8BWowQs69RujWsQacnW0dI-IvPL3oZ3i89Zp0&dib_tag=se&keywords=mg90s%2Bservo&qid=1752183510&s=toys-and-games&sprefix=mg90s%2Bservo%2Ctoys-and-games%2C125&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"> Link </a> |
+| AA battery holders (5 batteries in each holder) | used to power robotic arm and gesture-controlled robot | $7.99 | <a href="https://www.amazon.com/LampVPath-Battery-Holder-Leads-Wires/dp/B07WRQ44YK/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.iDeEIOEvnhCRTxPFr0HPSnakx6TL2rJdtwGNw7cbQ4sSNdC897I45ym8K0nc5YI5Ju937vYRCKzfxKJ-ywWb_0Hbi6-Ii1RF5cntou400kI5ifU-HD0bbijz7cxLbCAcf4AI4mwPMaTH1krZc2GifdBa-yaenE4WmQHTjPYz0knli_x3VIxzJr3MKcuB4Hix61Dct6aRhjpuyF_p9aZ33OT3hqr9SqUjP_JbHzWkonI.uAezwsj6ZPHZln4e_J2GG7xfZGBb8cMgzXCCYrO0XoY&dib_tag=se&keywords=5+AA+battery+holder&qid=1752183577&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
+| part | description| price| <a href=""> Link </a> |
 
 # Sources
 
@@ -248,10 +252,214 @@ Don't forget to place the link of where to buy each component inside the quotati
 - https://www.geeksforgeeks.org/electronics-engineering/overview-of-the-arduino-uno-components/
   
 - https://www.researchgate.net/figure/Arduino-Nano-hardware-circuit-diagram_fig4_335065396
+  
+- https://components101.com/motors/mg90s-metal-gear-servo-motor
 
 
 # Appendix
 
+## Joystick Data Sending Code
+
+```c++
+#include <SoftwareSerial.h>       // installs the softwwareserial.h and servo.h libraries 
+#include <Servo.h> 
+
+SoftwareSerial Bluetooth(2, 3);   // Sets the RX TX pins (2 TX, 3 RX)
+
+                                  // Servo objects
+Servo servobase;
+Servo servobody;
+Servo servoneck;
+Servo servohead;
+
+                                  // current and target positions
+float basePos = 80;
+float bodyPos = 90;
+float neckPos = 90;
+float headPos = 90;
+
+int baseTarget = 80;
+int bodyTarget = 90;
+int neckTarget = 90;
+int headTarget = 90;
+
+                                  // default servo positions
+const int baseHome = 80;
+const int bodyHome = 90;
+const int neckHome = 90;
+const int headHome = 90;
+
+// Inactivity timer
+unsigned long lastCommandTime = 0;
+const unsigned long timeoutDuration = 5000;  // 5 seconds
+
+char data;                                   // sets data variable as a char variable
+
+void setup() {
+  Serial.begin(9600);             // starts checking in buffer zone for data 
+  Bluetooth.begin(9600);          // in bluetooth and serial mode
+
+  
+  servobase.attach(4);            // gives each class a pin and attaches servos
+  servobody.attach(5);
+  servoneck.attach(6);
+  servohead.attach(7);
+
+                                  // moves to initial positions
+  servobase.write(basePos);       
+  servobody.write(bodyPos);
+  servoneck.write(neckPos);
+  servohead.write(headPos);
+
+  lastCommandTime = millis();  // starts timer
+}
+
+void loop() {
+  // Check for Bluetooth commands
+  if (Bluetooth.available()) {        // checks if bluetooth data/connection is availble
+    data = Bluetooth.read();          // sets definiton for data to bluetooth.read
+    Serial.print("Received: ");       // serial prints recived
+    Serial.println(data);             // prints the data 
+    lastCommandTime = millis();
+
+    
+    if (data == 'F') bodyTarget = constrain(bodyTarget + 10, 0, 180);       // if certain data is sent then 
+    else if (data == 'B') bodyTarget = constrain(bodyTarget - 10, 0, 180);  // the servo coresponding with the information will move 10 degrees  
+    else if (data == 'R') baseTarget = constrain(baseTarget + 10, 0, 180);  // forwards or backwards
+    else if (data == 'L') baseTarget = constrain(baseTarget - 10, 0, 180);
+    else if (data == 'O') headTarget = constrain(headTarget + 10, 0, 180);
+    else if (data == 'C') headTarget = constrain(headTarget - 10, 0, 180);
+    else if (data == 'U') neckTarget = constrain(neckTarget + 10, 0, 180);
+    else if (data == 'D') neckTarget = constrain(neckTarget - 10, 0, 180);
+  }
+
+                                              // for smooth transition toward target positions 
+  basePos += (baseTarget - basePos) * 0.1;
+  bodyPos += (bodyTarget - bodyPos) * 0.1;
+  neckPos += (neckTarget - neckPos) * 0.1;
+  headPos += (headTarget - headPos) * 0.1;
+
+                                              // writing (over bluetooth) smoothed positions to servos
+  servobase.write((int)basePos);
+  servobody.write((int)bodyPos);
+  servoneck.write((int)neckPos);
+  servohead.write((int)headPos);
+
+                                              //if no input is detected for 5 secs the servos will reset
+  if (millis() - lastCommandTime > timeoutDuration) {
+    baseTarget = baseHome;
+    bodyTarget = bodyHome;
+    neckTarget = neckHome;
+    headTarget = headHome;
+
+    Serial.println("No input — resetting to default position."); // serial prints no input dected
+    lastCommandTime = millis();                                   // prevents repeated resets
+  }
+
+  delay(20);                                            // delay for smoothness in controls
+} ```end 
+
+```
+## Robotic Arm Reciver Code for Modifcations
+```c++
+#include <SoftwareSerial.h>       // installs the softwwareserial.h and servo.h libraries 
+#include <Servo.h> 
+
+SoftwareSerial Bluetooth(2, 3);   // Sets the RX TX pins (2 TX, 3 RX)
+
+                                  // Servo objects
+Servo servobase;
+Servo servobody;
+Servo servoneck;
+Servo servohead;
+
+                                  // current and target positions
+float basePos = 80;
+float bodyPos = 90;
+float neckPos = 90;
+float headPos = 90;
+
+int baseTarget = 80;
+int bodyTarget = 90;
+int neckTarget = 90;
+int headTarget = 90;
+
+                                  // default servo positions
+const int baseHome = 80;
+const int bodyHome = 90;
+const int neckHome = 90;
+const int headHome = 90;
+
+// Inactivity timer
+unsigned long lastCommandTime = 0;
+const unsigned long timeoutDuration = 5000;  // 5 seconds
+
+char data;                                   // sets data variable as a char variable
+
+void setup() {
+  Serial.begin(9600);             // starts checking in buffer zone for data 
+  Bluetooth.begin(9600);          // in bluetooth and serial mode
+
+  
+  servobase.attach(4);            // gives each class a pin and attaches servos
+  servobody.attach(5);
+  servoneck.attach(6);
+  servohead.attach(7);
+
+                                  // moves to initial positions
+  servobase.write(basePos);       
+  servobody.write(bodyPos);
+  servoneck.write(neckPos);
+  servohead.write(headPos);
+
+  lastCommandTime = millis();  // starts timer
+}
+
+void loop() {
+  // Check for Bluetooth commands
+  if (Bluetooth.available()) {        // checks if bluetooth data/connection is availble
+    data = Bluetooth.read();          // sets definiton for data to bluetooth.read
+    Serial.print("Received: ");       // serial prints recived
+    Serial.println(data);             // prints the data 
+    lastCommandTime = millis();
+
+    
+    if (data == 'F') bodyTarget = constrain(bodyTarget + 10, 0, 180);       // if certain data is sent then 
+    else if (data == 'B') bodyTarget = constrain(bodyTarget - 10, 0, 180);  // the servo coresponding with the information will move 10 degrees  
+    else if (data == 'R') baseTarget = constrain(baseTarget + 10, 0, 180);  // forwards or backwards
+    else if (data == 'L') baseTarget = constrain(baseTarget - 10, 0, 180);
+    else if (data == 'O') headTarget = constrain(headTarget + 10, 0, 180);
+    else if (data == 'C') headTarget = constrain(headTarget - 10, 0, 180);
+    else if (data == 'U') neckTarget = constrain(neckTarget + 10, 0, 180);
+    else if (data == 'D') neckTarget = constrain(neckTarget - 10, 0, 180);
+  }
+
+                                              // for smooth transition toward target positions 
+  basePos += (baseTarget - basePos) * 0.1;
+  bodyPos += (bodyTarget - bodyPos) * 0.1;
+  neckPos += (neckTarget - neckPos) * 0.1;
+  headPos += (headTarget - headPos) * 0.1;
+
+                                              // writing (over Bluetooth) smoothed positions to servos
+  servobase.write((int)basePos);
+  servobody.write((int)bodyPos);
+  servoneck.write((int)neckPos);
+  servohead.write((int)headPos);
+
+                                              //If no input is detected for 5 seconds the servos will reset
+  if (millis() - lastCommandTime > timeoutDuration) {
+    baseTarget = baseHome;
+    bodyTarget = bodyHome;
+    neckTarget = neckHome;
+    headTarget = headHome;
+
+    Serial.println("No input — resetting to default position."); // serial prints no input dected
+    lastCommandTime = millis();                                   // prevents repeated resets
+  }
+
+  delay(20);                                            // delay for smoothness in controls
+} 
+```
 ## Bluetooth to Motor movement Code for Milestone 2
 
 
