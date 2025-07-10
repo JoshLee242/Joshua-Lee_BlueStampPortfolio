@@ -101,7 +101,7 @@ Figure 9: Design drawing of the front part of the frame
 
 Figure 8: This is the front section of my frame that will go on my robot. The arcs on the side give the wheels space to turn, and the joints on the end help connect the front and back sections.
 
-# Frame on robot
+# Frame installed on the robot
 
 ![logo](688BE289-EDB4-4268-8919-D5E2A4B38FC8.jpeg)
 
@@ -241,7 +241,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Robotic Arm Kit | I used this as my modification and it is mounted on the top of my gesture-controlled robot| $48.99 | <a href="https://www.amazon.com/LK-COKOINO-Compliment-Engineering-Technology/dp/B081FG1JQ1/ref=asc_df_B081FG1JQ1?mcid=9da4c6c9864a305ca1ea713827f50833&hvocijid=2083331172026415723-B081FG1JQ1-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=2083331172026415723&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-2281435178138&psc=1"> Link </a> |
 | 4 MG90S servos | used in my robotic arm joints | $13.99 | <a href="https://www.amazon.com/Miuzei-Geared-Helicopter-Arduino-Project/dp/B0CP98TZJ2/ref=sr_1_1_sspa?crid=2OSYFHM66JVL&dib=eyJ2IjoiMSJ9.KT6uBNq_77544KIMvo8eWVMxS9Y30u1jdnHZ0T4PIvMdso0ILP_JwPL0JDfpeqxji5bsNIssQTOxL-zmsPsn1Awk-JIrlUmNpKCip5ySeGyhPVpQ4_63ga_femXT_VossmQ7UoHR1kONRVpw473abwpFmQbWY6BQhODOPc96cKZ9QzxqbZE8fElr4lFE6dYRj7nbFDIjY0MBvFnWEZnWf7ipMsL57Uqt-m4dVOBEq37Gppef5j0bcCx7j5zHU1wQdCQFKJaIE0vlToK-3-2YMHgm7NbsIF-1WpwRiRtinxY.CaVUEt8BWowQs69RujWsQacnW0dI-IvPL3oZ3i89Zp0&dib_tag=se&keywords=mg90s%2Bservo&qid=1752183510&s=toys-and-games&sprefix=mg90s%2Bservo%2Ctoys-and-games%2C125&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"> Link </a> |
 | AA battery holders (5 batteries in each holder) | used to power robotic arm and gesture-controlled robot | $7.99 | <a href="https://www.amazon.com/LampVPath-Battery-Holder-Leads-Wires/dp/B07WRQ44YK/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.iDeEIOEvnhCRTxPFr0HPSnakx6TL2rJdtwGNw7cbQ4sSNdC897I45ym8K0nc5YI5Ju937vYRCKzfxKJ-ywWb_0Hbi6-Ii1RF5cntou400kI5ifU-HD0bbijz7cxLbCAcf4AI4mwPMaTH1krZc2GifdBa-yaenE4WmQHTjPYz0knli_x3VIxzJr3MKcuB4Hix61Dct6aRhjpuyF_p9aZ33OT3hqr9SqUjP_JbHzWkonI.uAezwsj6ZPHZln4e_J2GG7xfZGBb8cMgzXCCYrO0XoY&dib_tag=se&keywords=5+AA+battery+holder&qid=1752183577&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
-| part | description| price| <a href=""> Link </a> |
+
 
 # Sources
 
