@@ -39,7 +39,7 @@ Figure 17: Image of the completed project
 # How it works
 
 ## Servos (MG90S)
-![label](Screenshot 2025-07-09 at 11.58.40AM.jpeg)
+![label](Screenshot 2025-07-10 at 3.01.43 PM.jpeg)
 Figure 16: Diagram of an MG90S servo
 
 This servo contains four different components. A DC motor, gearbox, control circuit, and a potentiometer. The DC motor is the primary component that provides the mechanical power for rotation, and the gearbox is a series of gears that reduce the motor's speed while increasing torque, allowing for precise movement in degrees. Additionally, the control circuit is the brain of the servo. It receives signals from an external controller, in this case the NANO, processes them, and then determines the position, speed, and torque required for the motor shaft. Lastly, the potentiometer acts as a feedback mechanism, monitoring the motor's current position and reporting it back to the control circuit. The servo uses all of these components to determine how it should move.  
