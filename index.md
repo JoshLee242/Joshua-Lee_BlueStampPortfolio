@@ -29,7 +29,7 @@ Next up is my demo night presentation, where I will demonstrate how my project w
 
 ### 3D Robotic arm modification
 
-![label](Screenshot 2025-07-09 at 10.02.01AM.jpeg)
+![label](Screenshot 2025-07-09 at 10.02.01 AM.jpeg)
 Figure 17: Design drawing of my robotic arm mount
 
 
