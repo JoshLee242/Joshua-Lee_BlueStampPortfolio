@@ -33,7 +33,7 @@ Next up is my demo night presentation, where I will demonstrate how my project w
 Figure 1: Design drawing of my robotic arm mount
 
 
-![label](completedprojectimage.jpg)
+![label](rfihrejhgsdlhfvbr.jpg)
 Figure 2: Image of the completed project
 
 # How it works
